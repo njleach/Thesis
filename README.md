@@ -2,8 +2,8 @@
 
 A thesis submitted for the degree of Doctor of Philosophy.
 
-Nicholas Leach
-Atmospheric, Oceanic and Planetary Physics
+Nicholas Leach  
+Atmospheric, Oceanic and Planetary Physics  
 University of Oxford
 
 Supervised by:
