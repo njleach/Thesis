@@ -73,9 +73,9 @@
 
 %%%%% THESIS / TITLE PAGE INFORMATION
 % Everybody needs to complete the following:
-\title{Suitably impressive thesis title}
-\author{Your Name}
-\college{Your College}
+\title{Robust attribution and projection of extreme heat events to human influence on the climate}
+\author{Nicholas J. Leach}
+\college{St. Cross College}
 
 % Master's candidates who require the alternate title page (with candidate number and word count)
 % must also un-comment and complete the following three lines:
@@ -88,7 +88,7 @@
 % Your full degree name.  (But remember that DPhils aren't "in" anything.  They're just DPhils.)
 \degree{Doctor of Philosophy}
 % Term and year of submission, or date if your board requires (eg most masters)
-\degreedate{Michaelmas 2014}
+\degreedate{Trinity 2022}
 
 
 %%%%% YOUR OWN PERSONAL MACROS
@@ -134,7 +134,7 @@
 % This is used to create the separate, one-page abstract that you are required to hand into the Exam
 % Schools.  You can comment it out to generate a PDF for printing or whatnot.
 \begin{abstractseparate}
-	\input{text/abstract} % Create an abstract.tex file in the 'text' folder for your abstract.
+	\input{Abstract/abstract} % Create an abstract.tex file in the 'text' folder for your abstract.
 \end{abstractseparate}
 
 
@@ -159,7 +159,7 @@
 
 %%%%% ABSTRACT -- Nothing to do here except comment out if you don't want it.
 \begin{abstract}
-	\input{text/abstract}
+	\input{Abstract/abstract}
 \end{abstract}
 
 %%%%% MINI TABLES
@@ -188,7 +188,7 @@
 % This example includes a list of abbreviations.  Look at text/abbreviations.tex to see how that file is
 % formatted.  The template can handle any kind of list though, so this might be a good place for a
 % glossary, etc.
-\include{text/abbreviations}
+\include{ancil/abbreviations}
 
 % The Roman pages, like the Roman Empire, must come to its inevitable close.
 \end{romanpages}
@@ -197,8 +197,17 @@
 %%%%% CHAPTERS
 % Add or remove any chapters you'd like here, by file name (excluding '.tex'):
 \flushbottom
-\include{text/ch1-intro}
-\include{text/ch2-litreview}
+\include{Introduction/Introduction}
+
+\include{Ch1/Ch1}
+
+\include{Ch2/Ch2}
+
+\include{Ch2/Ch3}
+
+\include{Ch2/Ch4}
+
+\include{Discussion/Discussion}
 
 
 %% APPENDICES %% 
@@ -206,7 +215,7 @@
 %    page that just says "Appendices" to signal the end of your main text.
 \startappendices
 % Add or remove any appendices you'd like here:
-\include{text/appendix-1}
+\include{Appendices/A1}
 
 
 %%%%% REFERENCES
