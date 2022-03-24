@@ -2,6 +2,9 @@
 Introduction/Figures/Lorenz63-realisations/
 Introduction/Figures/animation-figs/
 
+## VSCode workspace
+*.code-workspace
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof

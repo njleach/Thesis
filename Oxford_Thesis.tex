@@ -30,6 +30,9 @@
 %\documentclass[a4paper,nobind]{ociamthesis} 
 
 
+%%%%% GENERIC TEXT
+\usepackage{blindtext}
+
 
 %%%%% SELECT YOUR DRAFT OPTIONS
 % Three options going on here; use in any combination.  But remember to turn the first two off before
@@ -90,6 +93,9 @@
 % Term and year of submission, or date if your board requires (eg most masters)
 \degreedate{Trinity 2022}
 
+% Supervisors
+\supervisorone{Antje Weisheimer}
+\supervisortwo{Myles R. Allen}
 
 %%%%% YOUR OWN PERSONAL MACROS
 % This is a good place to dump your own LaTeX macros as they come up.
@@ -99,6 +105,9 @@
 	\newcommand{\nd}{\textsuperscript{nd}}
 	\renewcommand{\st}{\textsuperscript{st}}
 	\newcommand{\rd}{\textsuperscript{rd}}
+
+% NJL: to format chapter references nicely
+\newcommand{\formatchref}[8]{#1 (#2). \textbf{#3}. \emph{#4}, \textbf{#5}(#6), #7. \url{#8}}
 
 %%%%% THE ACTUAL DOCUMENT STARTS HERE
 \begin{document}
@@ -154,7 +163,7 @@
 
 %%%%% ACKNOWLEDGEMENTS -- Nothing to do here except comment out if you don't want it.
 \begin{acknowledgements}
- 	\input{text/acknowledgements}
+ 	\input{ancil/acknowledgements}
 \end{acknowledgements}
 
 %%%%% ABSTRACT -- Nothing to do here except comment out if you don't want it.
@@ -203,9 +212,9 @@
 
 \include{Ch2/Ch2}
 
-\include{Ch2/Ch3}
+\include{Ch3/Ch3}
 
-\include{Ch2/Ch4}
+\include{Ch4/Ch4}
 
 \include{Discussion/Discussion}
 

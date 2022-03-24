@@ -59,6 +59,10 @@
 \def\degree#1{\gdef\@degree{#1}}
 % The name of your Oxford college (eg Christ Church, Pembroke)
 \def\college#1{\gdef\@college{#1}}
+% The name of your Oxford college (eg Christ Church, Pembroke)
+\def\supervisorone#1{\gdef\@supervisorone{#1}}
+% The name of your Oxford college (eg Christ Church, Pembroke)
+\def\supervisortwo#1{\gdef\@supervisortwo{#1}}
 % Your candidate number (ie for master's submissions)
 \def\candidateno#1{\gdef\@candidateno{#1}}
 % Your word count (for master's submissions)
@@ -99,6 +103,7 @@
 \fancyhead[RE]{\emph{\rightmark}} 
 \fancyhead[RO,LE]{\emph{\thepage}}
 
+% This controls the headers & footers on the chapter title pages
 \fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\emph{\thepage}}}
 
 % JEM fix header on cleared pages for openright
@@ -170,6 +175,9 @@
 
 \usepackage[nohints,tight]{minitoc} 
 	\setcounter{minitocdepth}{2} 
+    \mtcsetfeature{minitoc}{before}{\vspace{2ex}}
+    \mtcsetfeature{minitoc}{after}{}
+    \nomtcrule
 	% Generates mini tables of contents per chapter
 	
 % JEM: The following fixes minitoc to not be multiple-spaced.
@@ -221,18 +229,26 @@
   \begin{center}
     { \LARGE {\bfseries {\@title}} \par}
 {\large \vspace*{30mm} {\crest \par} \vspace*{25mm}}
-    {{\Large \@author} \par}
-{\large \vspace*{1ex}
-    {{\@college} \par}
-\vspace*{1ex}
-    {University of Oxford \par}
-\vspace*{20mm}
-    {{\submittedtext} \par}
-\vspace*{1ex}
-    {\it {\@degree} \par}
-\vspace*{2ex}
-    {\@degreedate}}
   \end{center}
+  \begin{flushleft}
+    {{\Large {\bfseries \@author}} \par}
+{\large \vspace*{0.5ex}
+    {{\@college} \par}
+% \vspace*{1ex}
+    {University of Oxford \par}
+\vspace*{10mm}
+    {Supervised by \par}
+\vspace*{0.5ex}
+    {\hspace{1.5em}{\bfseries \@supervisorone} \par}
+% \vspace*{1ex}
+    {\hspace{1.5em}{\bfseries \@supervisortwo} \par}
+\vspace*{10mm}
+    {\submittedtext \par}
+\vspace*{0.5ex}
+    {\it {\@degree} \par}
+\vspace*{1ex}
+    {\@degreedate}}
+  \end{flushleft}
 \fi
   \vfill\null
 \end{alwayssingle}}
@@ -372,7 +388,8 @@
    {\end{list}\mtcaddchapter}
 
 
-\usepackage[grey,utopia]{quotchap} 
+\usepackage[grey,utopia]{quotchap}
+\definecolor{chaptergrey}{HTML}{6388B4}
 	% To put nice quotes at the beginning of the chapters
 
 \usepackage[nottoc]{tocbibind}
@@ -408,8 +425,14 @@
 \renewcommand*\MakeUppercase[1]{##1}\@ldbib{#1}}}
 
 % JEM: for crazy multi character set quotes and Unicode and all
-\usepackage{lmodern}
 \usepackage[LGR,TS1,T1]{fontenc}
+\usepackage{helvet} % NJL: this sets the font
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\mtifont}{\large\sffamily}
+\renewcommand{\mtcfont}{\small\sffamily}
+\renewcommand{\mtcSfont}{\small\sffamily}
+\renewcommand{\mtcSSfont}{\small\sffamily}
+\renewcommand{\mtcSSSfont}{\small\sffamily}
 \usepackage[utf8]{inputenc}
 \usepackage[greek,latin,english]{babel}
 \usepackage{csquotes}
