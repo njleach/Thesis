@@ -90,6 +90,12 @@
 \fi
 
 \usepackage{xcolor}
+% NJL define a palette
+\definecolor{primary_color}{HTML}{6388B4}
+\definecolor{contrast_color1}{HTML}{FFAE34}
+\definecolor{contrast_color2}{HTML}{EF6F6A}
+\definecolor{subtle_color}{HTML}{8CC2CA}
+
 \usepackage{graphicx} 
 
 \usepackage{fancyhdr}
@@ -169,8 +175,15 @@
 \usepackage{notoccite} 
 	% To format the bibliography	
 
+\usepackage[symbol]{footmisc}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+    % To use symbolic footnotes
 
-\usepackage[colorlinks=false,pdfpagelabels]{hyperref} 
+\usepackage[colorlinks=true,pdfpagelabels]{hyperref}
+\hypersetup{
+    allcolors=primary_color,
+    urlcolor=contrast_color2
+}
 	% for linking between references, figures, TOC, etc in the pdf document
 
 \usepackage[nohints,tight]{minitoc} 
@@ -389,7 +402,7 @@
 
 
 \usepackage[grey,utopia]{quotchap}
-\definecolor{chaptergrey}{HTML}{6388B4}
+\colorlet{chaptergrey}{subtle_color}
 	% To put nice quotes at the beginning of the chapters
 
 \usepackage[nottoc]{tocbibind}
