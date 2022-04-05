@@ -55,7 +55,7 @@
 % Either way, you'll have to choose and configure an appropriate bibliography format...
 
 % The science-type option: numerical in-text citation with references in order of appearance.
-\usepackage[style=numeric-comp, sorting=none, backend=biber, doi=false, isbn=false]{biblatex}
+\usepackage[style=science, sorting=none, backend=biber, doi=false, isbn=false, natbib=true]{biblatex}
 \newcommand*{\bibtitle}{References}
 
 % The humanities-type option: author-year in-text citation with an alphabetical works cited.
@@ -66,6 +66,8 @@
 \renewcommand*{\bibfont}{\raggedright\small}
 
 % Change this to the name of your .bib file (usually exported from a citation manager like Zotero or EndNote).
+\addbibresource{Ch1/Thesis-Ch1.bib}
+\addbibresource{Ch2/Thesis-Ch2.bib}
 \addbibresource{references.bib}
 
 
@@ -108,6 +110,9 @@
 
 % NJL: to format chapter references nicely
 \newcommand{\formatchref}[8]{#1 (#2). \textbf{#3}. \emph{#4}, \textbf{#5}(#6), #7. \url{#8}}
+
+% NJL: to use tt font for urls
+\urlstyle{tt}
 
 %%%%% THE ACTUAL DOCUMENT STARTS HERE
 \begin{document}

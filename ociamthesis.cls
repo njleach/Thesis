@@ -97,6 +97,15 @@
 \definecolor{subtle_color}{HTML}{8CC2CA}
 
 \usepackage{graphicx} 
+%NJL set paths
+\graphicspath{
+    {./Introduction/Figures/}
+    {./Ch1/Figures/}
+    {./Ch2/Figures/}
+    {./Ch3/Figures/}
+    {./Ch4/Figures/}
+    {./Discussion/Figures/}
+}
 
 \usepackage{fancyhdr}
 \setlength{\headheight}{15pt}
@@ -136,7 +145,7 @@
 \usepackage[font=small,labelfont=bf]{caption} 
 	% Nicer captions
 
-\usepackage{multicol,multirow,array} 
+\usepackage{multicol,multirow,array,boldline} 
 	% Used to make multiple columns for the indices and for creating columns that span multiple rows in tables
 
 \usepackage{rotating} 
