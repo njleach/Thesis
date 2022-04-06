@@ -55,8 +55,13 @@
 % Either way, you'll have to choose and configure an appropriate bibliography format...
 
 % The science-type option: numerical in-text citation with references in order of appearance.
-\usepackage[style=science, sorting=none, backend=biber, doi=false, isbn=false, natbib=true]{biblatex}
+\usepackage[style=phys, sorting=none, backend=biber, doi=false, isbn=false, natbib=true, citestyle=science, backref=true]{biblatex}
 \newcommand*{\bibtitle}{References}
+% defines the backreferencing string in the bibliography
+\DefineBibliographyStrings{english}{%
+  backrefpage = {p.},%
+  backrefpages = {pp.}%
+}
 
 % The humanities-type option: author-year in-text citation with an alphabetical works cited.
 %\usepackage[style=authoryear, sorting=nyt, backend=biber, maxcitenames=2, useprefix, doi=false, isbn=false]{biblatex}

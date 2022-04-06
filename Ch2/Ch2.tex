@@ -13,6 +13,8 @@ In this chapter, I explore the close links between attribution of extreme weathe
 
 \clearpage
 
+\section{Chapter open}
+
 \section{Abstract}
 
 Recent extreme weather across the globe highlights the need to understand the potential for more extreme events in the present-day, and how such events may change with global warming. We present a methodology for more efficiently sampling extremes in future climate projections. As a proof-of-concept, we examine the UK's most recent set of national Climate Projections (UKCP18). UKCP18 includes a 15-member perturbed parameter ensemble (PPE) of coupled global simulations, providing a range of climate projections incorporating uncertainty in both internal variability and forced response. However, this ensemble is too small to adequately sample extremes with very high return periods, which are of interest to policy-makers and adaptation planners. To better understand the statistics of these events, we use distributed computing to run three ~1000-member initial-condition ensembles with the atmosphere-only HadAM4 model at 60km resolution on volunteers' computers, taking boundary conditions from three distinct future extreme winters within the UKCP18 ensemble. We find that the magnitude of each winter extreme is captured within our ensembles, and that two of the three ensembles are conditioned towards producing extremes by the boundary conditions. Our ensembles contain several extremes that would only be expected to be sampled by a UKCP18 PPE of over 500 members, which would be prohibitively expensive with current supercomputing resource. The most extreme winters we simulate exceed those within UKCP18 by 0.85K and 37\% of the present-day average for UK winter means of daily maximum temperature and precipitation respectively. As such, our ensembles contain a rich set of multivariate, spatio-temporally and physically coherent samples of extreme winters with wide-ranging potential applications.
@@ -88,22 +90,23 @@ Recent extreme weather across the globe highlights the need to understand the po
       
       Motivated by the recent winter extremes of the record hottest UK winter day of February 26th 2019 and the record wet winter month of February 2020, we aimed to select two ``hot'' winters and one ``wet'' winter. However, the method could be applied to the winters with the coldest or driest deviations. As shown in Figure 1, there is one clear candidate for each type of extreme: UKCP18 PPE member 02868 \citep[ID numbers as][]{sexton_perturbed_2021} year 2066 as a hot winter; and member 02242 year 2068 for the wet winter. The next most extreme hot winters shown in Figure 1A all had similar deviations, so we distinguished between them on the basis of their anomalies, choosing member 01554 year 2072, which has the highest anomaly of any of the candidate winters.
 
-      \clearpage
+      % \clearpage
       \begin{figure}[h]
         \centering
         \includegraphics[width=\textwidth]{{Fig2.1_small}.pdf}
-        \caption{UKCP PPE 2061-2080 deviations. \textbf{A}, DJF mean of daily maximum temperatures averaged over the UK region. Coloured lines indicate the three UKCP runs from which the study winters were chosen. The study winters are circled and dotted horizontal lines indicate the deviation of each study winter. The ensemble member id of the three runs is given in the legend. \textbf{B}, as \textbf{A}, but for DJF mean precipitation.}
+        \caption[LOF caption]{UKCP PPE 2061-2080 deviations. \textbf{A}, DJF mean of daily maximum temperatures averaged over the UK region. Coloured lines indicate the three UKCP runs from which the study winters were chosen. The study winters are circled and dotted horizontal lines indicate the deviation of each study winter. The ensemble member id of the three runs is given in the legend. \textbf{B}, as \textbf{A}, but for DJF mean precipitation.}
       \end{figure}
       \clearpage
 
       Table 1 provides a summary of the study winters selected. For clarity, we refer to the ExSamples ensembles by the abbreviations given in the final column of Table 1 followed by ``ensemble'' (so the ensemble that uses the SST/SIC from UKCP18 member 02868 year 2066 is ``HOT1 ensemble'', and the corresponding baseline ensemble is ``HOT1-B ensemble''). We use ``aggregate baseline ensemble'' to denote the aggregate of all three baseline ensembles. We refer to the corresponding winters as the ensemble abbreviation followed by `` winter''. Finally, we refer to the UKCP18 PPE ensembles as ``UKCP'' followed by the period the samples are taken from.
 
-      \clearpage
+      % \clearpage
       \begin{table}[h]
         \centering
+        \footnotesize
         \begin{tabular}{cllll}
           \toprule
-          \multicolumn{1}{l}{\multirow{2}{*}{}}&\multicolumn{3}{c}{\textbf{Boundary condition (study winter) detail}}&\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Abbreviation used}}}\\\cmidrule(lr){2-4}
+          \multicolumn{1}{l}{\multirow{2}{*}{}}&\multicolumn{3}{c}{\textbf{Boundary condition (study winter) detail}}&\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Abbreviation}}}\\\cmidrule(lr){2-4}
           \multicolumn{1}{l}{}&\multicolumn{1}{c}{UKCP18 member}&\multicolumn{1}{c}{Year}&\multicolumn{1}{c}{Extreme type}&\multicolumn{1}{c}{}\\\midrule
           \multirow{3}{*}{\textbf{Future projections}}&\multicolumn{1}{l}{02868}&\multicolumn{1}{l}{2066}&HOT&HOT1\\
           &\multicolumn{1}{l}{01554}&\multicolumn{1}{l}{2072}&HOT&HOT2\\
@@ -114,7 +117,7 @@ Recent extreme weather across the globe highlights the need to understand the po
           \end{tabular}
         \caption{Summary of experiments performed for ExSamples project.}
         \end{table}
-        \clearpage
+        % \clearpage
 
     \subsubsection{Synoptic characterisation of the study winters}
 
@@ -126,11 +129,11 @@ Recent extreme weather across the globe highlights the need to understand the po
 
       The WET winter displays a strong cyclonic south westerly flow with a low west of Ireland; classified as weather pattern 29. This pattern is associated with generally warm and wet weather. ENSO is in a neutral phase during this winter; and there are no other modes of SST variability in significantly positive or negative phases. Of the three study winters, this one has the smallest change in sea ice relative to the present-day; Arctic sea ice is almost entirely intact over the winter. 
 
-      \clearpage
+      % \clearpage
       \begin{figure}[h]
         \centering
         \includegraphics[width=\textwidth]{{Fig2.2_small}.pdf}
-        \caption{synoptic features of the study winters within the UKCP simulations. The row titles indicate the study winter. \textbf{a}, DJF mean MSLP anomalies for each winter. \textbf{b}, DJF mean SST deviations for each winter. Deviations are calculated for each gridpoint timeseries over 2061-2080. \textbf{c}, DJF mean Arctic sea ice fraction for each winter. The blue dashed line in \textbf{Aa} indicates the area used for analog subsampling described in 2.3.2.}
+        \caption[LOF caption]{synoptic features of the study winters within the UKCP simulations. The row titles indicate the study winter. \textbf{a}, DJF mean MSLP anomalies for each winter. \textbf{b}, DJF mean SST deviations for each winter. Deviations are calculated for each gridpoint timeseries over 2061-2080. \textbf{c}, DJF mean Arctic sea ice fraction for each winter. The blue dashed line in \textbf{Aa} indicates the area used for analog subsampling described in 2.3.2.}
       \end{figure}
       \clearpage
 
@@ -180,13 +183,14 @@ Recent extreme weather across the globe highlights the need to understand the po
       \begin{figure}[h]
         \centering
         \includegraphics[width=\textwidth]{{Fig2.3_small}.pdf}
-        \caption{comparing statistics of DJF mean of daily maximum temperatures (TXm) averaged over the UK region for the HOT1 winter. \textbf{A}, PDFs of baseline and future ensembles. The light orange PDF shows UKCP 2061-2080 deviations, with the distribution mean set to the ensemble mean anomaly between 2007-2016 and 2061-2071. The dark orange PDF shows HOT1 ensemble anomalies. The light grey PDF shows UKCP 2007-2016 anomalies. The black PDF shows HOT1-B ensemble anomalies. The dashed vertical light orange line indicates the HOT1 winter deviation. The dark orange and black dotted bars indicate the mean and likely range (16-84 \%) of corresponding analog subsamples. The bracketed values in the legend indicate the number of ensemble members that exceed the HOT1 winter threshold over the total number of ensemble members. \textbf{B}, return period diagram. The light orange dots show the empirical CDF of UKCP PPE 2061-2080 deviations. The solid black line shows the median generalised pareto distribution fit. The dotted black lines indicate a 5-95 \% credible interval of the distribution fit. The dark orange dashes along left y axis indicate positions of HOT1 ensemble anomalies. \textbf{C}, histograms of sampled return periods. The light orange line indicates the UKCP 2061-2080 deviations histogram, and the dark orange line the HOT1 ensemble anomalies. The dashed light orange line indicates the best-estimate return period of the HOT1 winter deviation. Grey contours indicate the expected histogram curve arising from a sample of size given by the contour labels.\\\\
+        \caption[LOF caption]{comparing statistics of DJF mean of daily maximum temperatures (TXm) averaged over the UK region for the HOT1 winter. \textbf{A}, PDFs of baseline and future ensembles. The light orange PDF shows UKCP 2061-2080 deviations, with the distribution mean set to the ensemble mean anomaly between 2007-2016 and 2061-2071. The dark orange PDF shows HOT1 ensemble anomalies. The light grey PDF shows UKCP 2007-2016 anomalies. The black PDF shows HOT1-B ensemble anomalies. The dashed vertical light orange line indicates the HOT1 winter deviation. The dark orange and black dotted bars indicate the mean and likely range (16-84 \%) of corresponding analog subsamples. The bracketed values in the legend indicate the number of ensemble members that exceed the HOT1 winter threshold over the total number of ensemble members. \textbf{B}, return period diagram. The light orange dots show the empirical CDF of UKCP PPE 2061-2080 deviations. The solid black line shows the median generalised pareto distribution fit. The dotted black lines indicate a 5-95 \% credible interval of the distribution fit. The dark orange dashes along left y axis indicate positions of HOT1 ensemble anomalies. \textbf{C}, histograms of sampled return periods. The light orange line indicates the UKCP 2061-2080 deviations histogram, and the dark orange line the HOT1 ensemble anomalies. The dashed light orange line indicates the best-estimate return period of the HOT1 winter deviation. Grey contours indicate the expected histogram curve arising from a sample of size given by the contour labels.\\\\
         We note that the sampled return periods are calculated using the best-estimate fit distribution shown in the return period diagram; hence the curves in \textbf{C} and \textbf{A} are related by the transfer function indicated by the solid black line in \textbf{B}.}
       \end{figure}
       \clearpage
 
       \begin{table}[h]
         \centering
+        \footnotesize
         \begin{tabular}{lllll}
           \toprule
           \multicolumn{1}{c}{\multirow{2}{*}{\textbf{Study winter}}}&\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Variable}}}&\multicolumn{3}{c}{\textbf{UKCP18 quantile (return period)}}\\\cmidrule(lr){3-5}
@@ -214,7 +218,7 @@ Recent extreme weather across the globe highlights the need to understand the po
       \begin{figure}[h]
         \centering
         \includegraphics[width=\textwidth]{{Fig2.4_small}.pdf}
-        \caption{As Figure 3, but for the HOT2 winter.}
+        \caption[LOF caption]{As Figure 3, but for the HOT2 winter.}
       \end{figure}
       \clearpage
 
@@ -230,7 +234,7 @@ Recent extreme weather across the globe highlights the need to understand the po
       \begin{figure}[h]
         \centering
         \includegraphics[width=\textwidth]{{Fig2.5_small}.pdf}
-        \caption{As Figure 3, but of DJF mean precipitation averaged over the UK region for the WET winter.}
+        \caption[LOF caption]{As Figure 3, but of DJF mean precipitation averaged over the UK region for the WET winter.}
       \end{figure}
       \clearpage
 
@@ -244,7 +248,7 @@ Recent extreme weather across the globe highlights the need to understand the po
     \begin{figure}[h]
       \centering
       \includegraphics[width=\textwidth]{{Fig2.6_small}.pdf}
-      \caption{as return period diagram of Figure 3, but of DJF maximum of maximum daily temperatures averaged over the UK region for the HOT1 winter. The statistical model indicated by the solid and dotted black lines is a generalised extreme value distribution fit over the entire population of UKCP PPE 2061-2080 deviations, which are shown as light orange dots. Note the dotted lines indicate a 0.1 - 99.9 \% CI in this instance. The dashed dark orange line shows the value of the most extreme member within the HOT1 ensemble.}
+      \caption[LOF caption]{as return period diagram of Figure 3, but of DJF maximum of maximum daily temperatures averaged over the UK region for the HOT1 winter. The statistical model indicated by the solid and dotted black lines is a generalised extreme value distribution fit over the entire population of UKCP PPE 2061-2080 deviations, which are shown as light orange dots. Note the dotted lines indicate a 0.1 - 99.9 \% CI in this instance. The dashed dark orange line shows the value of the most extreme member within the HOT1 ensemble.}
     \end{figure}
     \clearpage
 
@@ -272,4 +276,5 @@ Recent extreme weather across the globe highlights the need to understand the po
   
   The computational efficiency with which our methodology was able to sample such extremes provides a compelling argument for how it could be used to support future climate projection efforts. The ensembles that we have presented here could themselves be used to provide  multivariate spatially, temporally and physically coherent examples of extreme weather in the context of H++ scenarios and for adaptation planning. Although we have focussed on the UK in this study, our methodology could be applied to other regions, subject to proper model validation \citep{murphy_ukcp18_2018,watson_multi-thousand_2020}.
   
-\section{Closing remarks}
+\section{Chapter close}
+%% Thoughts on this study in the context of the Thesis
