@@ -1,0 +1,50 @@
+font.family : Helvetica
+font.size : 11
+# this cycle is the color_blind palette
+axes.prop_cycle : cycler('color',['1170aa', 'fc7d0b', 'a3acb9', '57606c', '5fa2ce', 'c85200', '7b848f', 'a3cce9', 'ffbc79', 'c8d0d9'])
+
+axes.formatter.limits : -3,3
+axes.titlesize : medium
+axes.labelsize : medium
+axes.linewidth : 0.5
+
+legend.frameon : False
+
+boxplot.whiskers : 5,95
+boxplot.showfliers : False
+boxplot.medianprops.color : 'black'
+
+lines.linewidth : 1
+lines.markeredgewidth : 0.5
+lines.markersize : 3
+
+hatch.color : 'k'
+hatch.linewidth : 0.5
+
+errorbar.capsize : 5
+
+hist.bins : auto
+
+pdf.fonttype : 3
+pdf.use14corefonts : True
+
+axes.unicode_minus : False
+
+figure.figsize : 5.848611111111111 , 5.848611111111111
+figure.dpi : 120
+
+xtick.major.pad : 2.0
+xtick.major.size : 3.2
+xtick.major.width : 0.5
+xtick.minor.pad : 1.8
+xtick.minor.size : 2.4
+xtick.minor.width : 0.33
+xtick.labelsize: small
+
+ytick.major.pad : 2.0
+ytick.major.size : 3.2
+ytick.major.width : 0.5
+ytick.minor.pad : 1.8
+ytick.minor.size : 2.4
+ytick.minor.width : 0.33
+ytick.labelsize: small
