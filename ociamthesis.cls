@@ -448,7 +448,14 @@
 
 % JEM: for crazy multi character set quotes and Unicode and all
 \usepackage[LGR,TS1,T1]{fontenc}
-\usepackage{helvet} % NJL: this sets the font
+
+% NJL: these bits set the font
+% \usepackage{helvet}
+\usepackage{fontspec}
+\setmainfont[Ligatures=TeX]{Merriweather}
+\setsansfont[Ligatures=TeX]{Helvetica}
+\setmonofont[Ligatures=TeX]{Hack}
+
 \renewcommand{\familydefault}{\sfdefault}
 \renewcommand{\mtifont}{\large\sffamily}
 \renewcommand{\mtcfont}{\small\sffamily}
