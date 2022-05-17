@@ -71,11 +71,26 @@
 \renewcommand*{\bibfont}{\raggedright\small}
 
 % Change this to the name of your .bib file (usually exported from a citation manager like Zotero or EndNote).
+\addbibresource{Introduction/Thesis-Introduction.bib}
 \addbibresource{Ch1/Thesis-Ch1.bib}
 \addbibresource{Ch2/Thesis-Ch2.bib}
 \addbibresource{Ch3/Thesis-Ch3.bib}
-\addbibresource{references.bib}
 
+% NJL: tidy up bibliography & allow custom notes (through the Zotero "note" interface) to be printed after entries
+
+% NJL: these lines remove unwanted fields from the printed biliography
+\AtEveryBibitem{\clearfield{issn}}
+\AtEveryBibitem{\clearlist{issn}}
+\AtEveryBibitem{\clearfield{language}}
+\AtEveryBibitem{\clearlist{language}}
+\AtEveryBibitem{\clearfield{note}}
+\AtEveryBibitem{\clearlist{note}}
+
+% NJL: adds in the annotation field
+\DeclareFieldFormat{annotation}{\textbf{#1}}
+\AtEveryBibitem{
+\csappto{blx@bbx@\thefield{entrytype}}{\iffieldundef{annotation}{}{\par\printfield{annotation}}}
+}
 
 % Uncomment this if you want equation numbers per section (2.3.12), instead of per chapter (2.18):
 %\numberwithin{equation}{subsection}
@@ -242,8 +257,8 @@
 
 % JEM: Quote for the top of references (just like a chapter quote if you're using them).  Comment to skip.
 \begin{savequote}[8cm]
-The first kind of intellectual and artistic personality belongs to the hedgehogs, the second to the foxes \dots
-  \qauthor{--- Sir Isaiah Berlin \cite{berlin_hedgehog_2013}}
+  Quote
+  \qauthor{--- author}
 \end{savequote}
 
 \setlength{\baselineskip}{0pt} % JEM: Single-space References

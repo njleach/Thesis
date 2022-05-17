@@ -409,9 +409,15 @@
    }}
    {\end{list}\mtcaddchapter}
 
+% NJL: these commands edit the section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily}
+\subsectionfont{\rmfamily}
+\subsubsectionfont{\rmfamily}
 
-\usepackage[grey,utopia]{quotchap}
-\colorlet{chaptergrey}{subtle_color}
+\usepackage[grey,newcentury]{quotchap}
+\colorlet{chaptergrey}{subtle_color} % NJL: color of number
+\renewcommand*{\sectfont}{\rmfamily} % NJL: font of title
 	% To put nice quotes at the beginning of the chapters
 
 \usepackage[nottoc]{tocbibind}
