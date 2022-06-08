@@ -135,6 +135,10 @@
 % NJL: to use tt font for urls
 \urlstyle{tt}
 
+% NJL: try to change spacing (works but messes up frontmatter)
+\usepackage[]{setspace}
+% \onehalfspacing
+
 %%%%% THE ACTUAL DOCUMENT STARTS HERE
 \begin{document}
 
@@ -227,6 +231,8 @@
 % The Roman pages, like the Roman Empire, must come to its inevitable close.
 \end{romanpages}
 
+% NJL: this sets the spacing in the main text
+\onehalfspacing
 
 %%%%% CHAPTERS
 % Add or remove any chapters you'd like here, by file name (excluding '.tex'):
@@ -260,6 +266,9 @@
   Quote
   \qauthor{--- author}
 \end{savequote}
+
+% NJL: this sets the spacing since baselineskip commands don't seem to work...
+\singlespacing
 
 \setlength{\baselineskip}{0pt} % JEM: Single-space References
 
