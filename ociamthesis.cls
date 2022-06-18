@@ -415,8 +415,9 @@
 \subsectionfont{\rmfamily}
 \subsubsectionfont{\rmfamily}
 
-\usepackage[grey,newcentury]{quotchap}
+\usepackage[grey]{quotchap}
 \colorlet{chaptergrey}{subtle_color} % NJL: color of number
+\renewcommand*{\chapnumfont}{\bfseries\fontspec{EB Garamond}\fontsize{100}{130}\selectfont\color{chaptergrey}} % NJL: for some reason have to set the font this way (think fontspec package issue - seem to have to use truetype fonts?)
 \renewcommand*{\sectfont}{\rmfamily} % NJL: font of title
 	% To put nice quotes at the beginning of the chapters
 
@@ -452,15 +453,15 @@
 \renewcommand*\bibliography[1]{{%
 \renewcommand*\MakeUppercase[1]{##1}\@ldbib{#1}}}
 
-% JEM: for crazy multi character set quotes and Unicode and all
-\usepackage[LGR,TS1,T1]{fontenc}
-
 % NJL: these bits set the font
 % \usepackage{helvet}
 \usepackage{fontspec}
 \setmainfont[Ligatures=TeX]{Merriweather}
 \setsansfont[Ligatures=TeX]{Helvetica}
 \setmonofont[Ligatures=TeX]{Hack}
+
+% JEM: for crazy multi character set quotes and Unicode and all
+\usepackage[LGR,TS1,T1,TU]{fontenc}
 
 \renewcommand{\familydefault}{\sfdefault}
 \renewcommand{\mtifont}{\large\sffamily}
