@@ -25,45 +25,53 @@ Chapter description.
 
   Although I have discussed various limitations of the individual studies that make up this thesis, in this section I consider some of the limitations of the forecast-based approach to attribution developed and explored here as a whole.
 
-  \subsection*{Forecast adjustment}
+  \paragraph*{Forecast adjustment}
 
     One key aspect of the counterfactual forecasts performed here is that the model --- or more specifically the model atmosphere --- adjusts continually to the imposed perturbations throughout the integration. This means that the further into the forecast the event of interest happens, the stronger the attributed impact of those perturbations is. At the same time, as the forecast evolves, this effect becomes more uncertain in general (though not necessarily always), due to the increasing dynamical noise arising from the chaotic nature of the weather system. This combination of this increasing strength and uncertainty can make analysing and interpreting the results of the counterfactual forecast experiments difficult. In chapter \ref{ch4} I alleviated this difficulty by making use of the fact that the attributable regional impacts of climate change were near-linearly related to the coincidental measured level of global warming. This linear relationship allowed me to benchmark the estimated impact at each forecast lead time to the same level of global warming, regardless of how adjusted they were at the time of the event in question. However, this linear relationship is not guaranteed for every extreme event, and therefore it would be valuable to find methodologies by which this adjustment could either be reduced or removed entirely. I consider a few ideas to achieve this below.
 
-  \subsection*{Additional uncertainty dimensions}
+  \paragraph*{Additional uncertainty dimensions}
 
-    In the experiments performed here, I have only considered uncertainty arising from the chaotic nature of the weather system. However, there are additional uncertainties associated with the approach I have developed. 
+    In the experiments performed here, I have only considered uncertainty arising from the chaotic nature of the weather system. However, there are additional uncertainties associated with the approach I have developed. One dimension that has been explored in prior work is the uncertainty in the estimation of the ``human fingerprint'' that is removed from the model initial conditions. For example, \citet{pall_anthropogenic_2011}, who removed such a fingerprint from the SSTs (and sea ice fields) of the inital conditions in their naturalised simulations, used four estimates of the warming pattern based on different coupled climate models. This allowed them to test the sensitivity of their attribution statements to the warming pattern used. This approach of using an ensemble of coupled climate models to derive a corresponding ensemble of human fingerprints in order to more completely sample this dimension of uncertainty space has since been used in several other studies \citep{schaller_human_2016}; though many attribution studies and systems still use a single estimate, often based on a multi-model mean pattern \citep{ciavarella_upgrade_2018,stone_benchmark_2021}. 
 
-  \subsection*{Single model}
+    In this thesis, I used a single pattern estimated from observations. I used observations to avoid over-reliance on a single coupled climate model, given the biases and known issues present in such models. Although it would have been extremely interesting to more completely explore this dimension of uncertainty (given observations of the ocean subsurface are by no means perfect, especially pre-2000), limits to computer resources prevented me from doing so within the scope of this thesis. However, I hope that such an exploration could be carried out in the future. Doing so would be conceptually straightforward, simply involving treating historical output from a set of different coupled climate models exactly as if they were the observations that I used. Quantitative attribution results derived from each coupled model estimate could be compared to test the sensitivity of such results to the estimate of the human fingerprint used. Because of the variation in the representation of transient historical climate within coupled climate models, each model-derived fingerprint might have to be scaled by (for example) the present-day level of global warming within the model for consistency \citep{tokarska_past_2020}.
 
-  \subsection*{Single event class}
+  \paragraph*{Single model}
 
-  \subsection*{Considering additional forcing agents}
+    Within the core research of this thesis concerning forecast-based attribution, I have used a single model, ECMWF's IFS. There were a number of reasons for this limitation: ECMWF provided a mechanism for me to access the computing resources I required through their special project; there were also individuals at ECMWF who provided the technical expertise I needed to design and perform the counterfactual forecast experiemnts; the IFS is one of the (if not the) best performing numerical weather prediction models on a global basis \citep{hagedorn_comparing_2012}; and applying the couterfctual forecast methodology to other models would have presented considerable technical challenges that lie beyond the scope of this thesis. However, the quantitative results presented here may be sensitive to this choice of model. 
+    
+    There is considerable variation in both the global and regional response to external forcing among climate models \cite{meehl_context_2020,seneviratne_regional_2020,masson-delmotte_human_2021,masson-delmotte_earths_2021,masson-delmotte_linking_2021,masson-delmotte_weather_2021}. This variation is the reason why \citet{philip_protocol_2020} suggest that having as large a set of different climate models as possible is important for a probabilistic attribution study. Although still a point that should not be overlooked, I argue that such a multi-model assessment is not as important when using the counterfactual forecast approach introduced here. Firstly, a successful prediction ensures (when combined with a limited validation that the prediction did not occur for the wrong reasons) that the model used is able to represent the physical processes of the event in question, and that vital processes are not missing, as may be the case in some climate models. This grounding in the specific physics of the event means that the simulated response to external forcing is considerably more certain and less model dependent. Secondly, the use of a \emph{reliable} forecast ensemble to assess probability ensures that these probabilities are representative of the full space of possible states of the climate system given the initial conditions of the forecast \citep{murphy_new_1973}. This is not the case for climate model simulations, including perturbed parameter ensembles. However, despite these mitigating factors, exploring the sensitivity of the couterfactual forecast approach to the model used is an important question for future research. This could be done by carrying out an identical experiment in (for example) the Met Office's numerical weather prediction systems \citep{walters_met_2017,maclachlan_global_2015}.
 
-  
+  \paragraph*{Single event class}
+
+    This thesis has concentrated on extreme heat events. However, given the major contribution of the thesis to attribution literature has been the forecast-based approach taken, rather than understanding the specific type of extreme event studied, this does represent a limitation. There are good reasons for this focus on heatwaves, given the possible scope of a thesis: they have severe associated impacts; are generally well understood; and have been the subject of a large body of prior attribution literature. However, demonstrating that the forecast-based approach can be used for other classes of extreme event will be vital for the method to be taken up widely. A possible candidate for the next class to study would be a high precipitation event. Attribution of high precipitation extremes is generally more challenging than of heatwaves, due to the smaller spatial scales involved, though there still exists a considerable amount of prior work that addresses this question. The high resolution of weather forecast models certainly makes them a more appropriate tool than coarse climate models for studying localised extremes.
+
+  \paragraph*{Considering additional forcing agents}
+
+    In chapter \ref{ch4}, the `complete' estimate of human influence on the Pacific Northwest Heatwave was derived by removing human influence on ocean heat content (by reducing the 3D ocean temperature) and reducing the levels of CO$_2$ in the atmosphere back to their pre-industrial levels. Although we argue that this represents a good estimate of the total sum of human influence, there are a number of additional sources of anthropogenic forcing on the climate system that may need to be considered in future work. Increased levels of other greenhouse gases such as methane or nitrous oxide have a similar radiative effect to CO$_2$, though the forcing from these other agents is relatively small in magnitude compared to CO$_2$ \citep{masson-delmotte_earths_2021}. The other significant human contribution arises from aerosol emissions. Unlike greenhouse gases, historical aerosol emissions have reduced the energy imbalance of the earth, thus masking some of the global warming caused by greenhouse gases. Additionally, while greehouse gases are well-mixed throughout the atmosphere, aerosols are highly localised in space due to their short lifetime. This means that their effect on local climate can vary considerably from region to region. In this thesis we only considered forcing from increases in CO$_2$ concentrations since i) forcings from these other sources approximately cancel each other out on global scales, and ii) the IFS does not include an interactive atmospheric chemistry model, but instead uses an aerosol climatology \citep{bozzo_aerosol_2020}. There has been relatively little research into the effects of aerosols on heatwaves specifically \citep{horton_review_2016}, but it has been found that aerosol reductions in the future exacerbate increases in heatwave magnitude arising from continued greenhouse gas emissions \citep{zhao_strong_2019}. Including the effect of these additional forcing agents on specific extreme weather events would be an extremely interesting direction for future research. The effect of aerosols may be especially interesting for precipitation extremes, since aerosols are known to have direct impacts on cloud formation. However, while including the radiative effects from other greenhouse gases would be straightforward, and could be done exactly as has been for CO$_2$, including the effects from aerosol emissions would likely be considerably more technically complicated and subject to large uncertainty, though might be possible using a version of IFS that includes a tropospheric aerosol scheme \citep{remy_description_2019}.
 
 \section{Future research directions}
 
-  \subsection*{Assimilating the perturbations}
+  \paragraph*{Assimilating the perturbations}
 
     \blindtext
 
-  \subsection*{Alternative extremes}
+  \paragraph*{Alternative extremes}
 
     \blindtext
 
-  \subsection*{Alternative forecast models}
+  \paragraph*{Alternative forecast models}
 
     \blindtext
 
-  \subsection*{Incorporating perturbation uncertainty}
+  \paragraph*{Incorporating perturbation uncertainty}
 
     \blindtext
 
-  \subsection*{Projections of future extremes}
+  \paragraph*{Projections of future extremes}
 
     \blindtext
 
-  \subsection*{Impact assessment}
+  \paragraph*{Impact assessment}
 
     \blindtext
 

@@ -414,6 +414,7 @@
 \sectionfont{\rmfamily}
 \subsectionfont{\rmfamily}
 \subsubsectionfont{\rmfamily}
+\paragraphfont{\rmfamily}
 
 \usepackage[grey]{quotchap}
 \colorlet{chaptergrey}{subtle_color} % NJL: color of number
