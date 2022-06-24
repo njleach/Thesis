@@ -461,6 +461,9 @@
 \setsansfont[Ligatures=TeX]{Helvetica}
 \setmonofont[Ligatures=TeX]{Hack}
 
+% NJL: set math font to Euler style
+\usepackage{eulervm}
+
 % JEM: for crazy multi character set quotes and Unicode and all
 \usepackage[LGR,TS1,T1,TU]{fontenc}
 
