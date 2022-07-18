@@ -131,7 +131,17 @@
 	\newcommand{\rd}{\textsuperscript{rd}}
 
 % NJL: to format chapter references nicely
-\newcommand{\formatchref}[8]{#1 (#2). \textbf{#3}. \emph{#4}, \textbf{#5}(#6), #7. \url{#8}}
+\usepackage{etoolbox}
+\newcommand{\formatchref}[8]{
+	#1 %
+	(#2). %
+	\textbf{#3}. %
+	\emph{#4}, %
+	\ifstrempty{#5}{}{\textbf{#5}}%
+	\ifstrempty{#6}{}{(#6)}%
+	\ifstrempty{#7}{}{, #7}. %
+	\ifstrempty{#8}{}{\url{#8}}
+	}
 
 % NJL: to use tt font for urls
 \urlstyle{tt}

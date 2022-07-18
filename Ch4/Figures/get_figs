@@ -1,0 +1,2 @@
+rsync -ave ssh jump_atm:/home/l/leach/Attribution/PNW-heatwave-2021/notebooks/Analysis/counterfactual-forecast-notebooks/output/figs/manuscript-figs/* ./
+rename 's/FIG/Fig4./' *
