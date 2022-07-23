@@ -1,0 +1,1 @@
+rsync -ave ssh jump_atm:/home/l/leach/Attribution/Feb19-thesis-figs/* ./
