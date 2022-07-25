@@ -100,10 +100,10 @@
 %NJL set paths
 \graphicspath{
     {./Introduction/Figures/}
-    {./Ch1/Figures/}
     {./Ch2/Figures/}
     {./Ch3/Figures/}
     {./Ch4/Figures/}
+    {./Ch5/Figures/}
     {./Discussion/Figures/}
 }
 
