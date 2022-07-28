@@ -6,7 +6,7 @@
 \chapter{\label{ch4}Forecast-based attribution: perturbing the initial and boundary conditions}
 
 Chapter description.
-\small\paragraph{Author contributions:} This chapter is based on the following publication \footnote{with the author contributing as follows.} \par\vspace{1em}
+\small\paragraph{Author contributions:} This chapter is based on the following publication \footnote{with the author contributing as follows. Conceptualisation, Data curation, Formal analysis, Investigation, Methodology, Resources, Visualisation, Writing -- original draft and Writing --- Review \& Editing.} \par\vspace{1em}
 \formatchref{Leach, N. J., Roberts, C. D., Heathcote, D., Mitchell, D. M., Thompson, V., Palmer, T. N., Weisheimer, A., \& Allen, M. R.}{2022}{Reliable heatwave attribution based on successful operational weather forecasts}{Nature}{submitted}{}{}{}
 
 \clearpage
@@ -36,22 +36,113 @@ Chapter description.
 
   In this study we use the coupled operational ECMWF model (details in the Supplement) to analyse the Pacific Northwest heatwave, taking advantage of its successful predictions of this unprecedented event at leads of over a week. We perform counterfactual forecasts of the event by perturbing the initial and boundary conditions of the model in order to simulate how the heatwave might have emerged had it occurred in a cooler pre-industrial world, or a warmer future world. We then compare the counterfactual and operational forecasts to assess the impact of anthropogenic climate change on both the magnitude and probability-of-occurrence of the event. We believe that this forecast-based approach opens the door to not only a reliable and practical operational attribution system, but also to a robust way of generating projections of future weather explicitly referenced to the forecasts used already by adaptation planners \cite{hazeleger_tales_2015}.
 
-  \subsection{The Pacific Northwest heatwave}
+\section{The Pacific Northwest heatwave}
 
-    At the end of June 2021, a large fraction of the Pacific Northwest region of the US and Canada experienced unprecedented high temperatures, including the cities of Portland, Salem, Seattle and Vancouver (Figure \ref{fig4.1}). This heatwave (the “PNW heatwave”) has been directly linked to many hundred excess deaths during and following it, making it the deadliest weather event on record for both Canada and Washington state \cite{henderson_analysis_2022}. The heatwave peak was observed between the 28th \& 30th June, though temperatures were still exceptionally high on the days immediately before and after this period \cite{menne_global_2012,menne_overview_2012}. A large number of local maximum temperature records were broken during this period, including the Canadian all-time record by a margin of 4.6 °C.
+  At the end of June 2021, a large fraction of the Pacific Northwest region of the US and Canada experienced unprecedented high temperatures, including the cities of Portland, Salem, Seattle and Vancouver (Figure \ref{fig4.1}). This heatwave (the “PNW heatwave”) has been directly linked to many hundred excess deaths during and following it, making it the deadliest weather event on record for both Canada and Washington state \cite{henderson_analysis_2022}. The heatwave peak was observed between the 28th \& 30th June, though temperatures were still exceptionally high on the days immediately before and after this period \cite{menne_global_2012,menne_overview_2012}. A large number of local maximum temperature records were broken during this period, including the Canadian all-time record by a margin of 4.6 °C.
 
-    Based on current understanding, the heatwave arose from an optimal combination of proximal drivers \cite{overland_causes_2021,lin_2021_2022,mo_anomalous_2022,white_unprecedented_2022}. Development of an omega block between the 23rd-27th coincided with the landfall of an atmospheric river (AR) on the 25th. Warm air was drawn up from the tropical West Pacific, heated diabatically through condensation in the river and then further heated adiabatically through subsidence: both the temperature and lapse rate at 500 hPa reached or approached record levels in the regions affected. This atmospheric heating was enhanced by soil moisture feedbacks \cite{thompson_2021_2022} and high insolation at the land surface during the hottest hours of the day (Figure \ref{fig4.2}). Given the unprecedented nature of the observed heatwave, any dynamical numerical model would need to capture all these processes, including the coupling between them, in order to produce an accurate representation of the event.
+  Based on current understanding, the heatwave arose from an optimal combination of proximal drivers \cite{overland_causes_2021,lin_2021_2022,mo_anomalous_2022,white_unprecedented_2022}. Development of an omega block between the 23rd-27th coincided with the landfall of an atmospheric river (AR) on the 25th. Warm air was drawn up from the tropical West Pacific, heated diabatically through condensation in the river and then further heated adiabatically through subsidence: both the temperature and lapse rate at 500 hPa reached or approached record levels in the regions affected. This atmospheric heating was enhanced by soil moisture feedbacks \cite{thompson_2021_2022} and high insolation at the land surface during the hottest hours of the day (Figure \ref{fig4.2}). Given the unprecedented nature of the observed heatwave, any dynamical numerical model would need to capture all these processes, including the coupling between them, in order to produce an accurate representation of the event.
+  
+  Despite the observed temperatures lying far outside the historical record, the heatwave was well predicted by numerical weather forecast models such as from ECMWF at lead times of more than a week. The seasonal forecast from ECMWF captured one important aspect of the event: it predicted a thicker troposphere than average (measured by 500 hPa geopotential height) over the Pacific Northwest during the summer. A key change in the predictability of the exceptional temperatures occurred around June 21st, being the earliest point at which the penetration of the AR over land was well represented \cite{mo_anomalous_2022}. The success of these forecast models provides an opportunity to use them to examine the influence of anthropogenic climate change on the event as it actually occurred.
+
+  \clearpage
+  \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{{Fig4.1}.png}
+    \caption[Features and forecasts of the Pacific Northwest heatwave.]{\textbf{Features and forecasts of the Pacific Northwest heatwave. Top panel:} Surface temperature anomalies at the time of the peak heat during the heatwave within the region enclosed by 45-52N, 119-123W (indicated by the dotted rectangle). Solid black contours show the 500 hPa geopotential height anomaly averaged over 26-30th June 2021. Data are from ERA5 reanalysis \cite{hersbach_era5_2020}. \textbf{Inset:} timeseries of annual maximum temperatures for the same dotted region. \textbf{Bottom panels:} As above, but taken from the ensemble member within the forecast initialised on the date given above each panel that predicted the nearest temperature to the reanalysis within the dotted region.}
+    \label{fig4.1}
+  \end{figure}
+  \clearpage
+
+\section{Methods}
+
+  \subsection*{Event definition}
+  
+    How the extreme event of interest is quantified - the event definition - is a key methodological decision that must be made in extreme event attribution studies. A significant amount of previous work has shown the impact of the event definition on the quantitative outcome of the analysis \cite{uhe_comparison_2016,kirchmeieryoung_importance_2019,angelil_nonlinearity_2018}. In this study we use a definition consistent with a previous attribution study of the PNW heatwave \cite{philip_rapid_2021} to allow for a comparison between our forecast-based approach and their probabilistic statistical and climate-model based approach.
+  
+    We first average maximum temperatures over the region enclosed by 45--52N, 119--123W (indicated by the dotted rectangles in Figures \ref{fig4.1} \& \ref{fig4.2}). For the event as observed in the ERA5 reanalysis \cite{hersbach_era5_2020} we then take the peak temperature recorded during the heatwave, which occurred at 00 UTC on 2021-06-29. For the event as simulated in the medium-range forecast ensemble members, we take the peak temperature that occurred between the 26-30th June, the period over which the heatwave occurred in reality. For the event as simulated in the seasonal forecast ensemble members, which we would not expect to predict the precise timing of the heatwave, we take the peak temperature over the full summer season. The differences between the event definitions of the medium-range and seasonal cases lead to the discrepancies in the climatologies shown in Figure \ref{fig4.3}.
+  
+  \subsection*{Experiment details}
+  
+    \paragraph*{Model details}
+  
+      The medium-range experiments we have performed use the version of the IFS EPS that was operational at the time of the PNW heatwave, CY47R2 \cite{noauthor_ifs_2020}. The forecast model atmosphere is run at a resolution of O640 ($\sim$18km) and has 137 vertical levels. The atmosphere is coupled to a 0.25 degree wave model \cite{janssen_interaction_2004}, 0.25 degree sea ice model \cite{fichefet_sensitivity_1997}, LIM2, and 0.25 degree ocean model \cite{madec_nemo_2008}, NEMO v3.4, with 75 vertical levels (ORCA025Z75 configuration). We maintain the same number of ensemble members as the operational system, 51, throughout our experiments.
     
-    Despite the observed temperatures lying far outside the historical record, the heatwave was well predicted by numerical weather forecast models such as from ECMWF at lead times of more than a week. The seasonal forecast from ECMWF captured one important aspect of the event: it predicted a thicker troposphere than average (measured by 500 hPa geopotential height) over the Pacific Northwest during the summer. A key change in the predictability of the exceptional temperatures occurred around June 21st, being the earliest point at which the penetration of the AR over land was well represented \cite{mo_anomalous_2022}. The success of these forecast models provides an opportunity to use them to examine the influence of anthropogenic climate change on the event as it actually occurred.
-
+      The seasonal experiments are performed with ECMWF`s operational seasonal forecasting system, SEAS5 \cite{johnson_seas5_2019}. This uses IFS CY43R1 \cite{noauthor_ifs_2016} at a horizontal resolution of Tco319 (~36 km) with 91 vertical levels. The seasonal configuration of IFS CY43R1 is coupled to a 0.5 degree wave model, LIM2, and NEMO v3.4 in the ORCA025Z75 configuration. We maintain the same number of ensemble members as the operational system, 51, throughout our experiments.
+  
+    \paragraph*{Simulation setup}
+  
+    Our experiments all use the exact operational setup (model configuration and initial conditions) as their base. To this setup, we:
+  
+    \begin{enumerate}
+      \item Change the CO2 concentrations used to a “pre-industrial” level of 285 ppm, and a “future” level of 615 ppm. These represent the same fractional change in opposite directions from the present-day concentration of 420 ppm used in the operational forecast system.
+      \item Subtract (for the pre-industrial forecast) or add (for the future forecast) a perturbation of the estimated anthropogenic influence on the ocean state since the pre-industrial period from the initial conditions of the forecasts (through the ocean restart files). The estimation of this perturbation is described below. We use estimated perturbations for 3D temperature, sea ice concentration, and sea ice thickness.
+      \item Check the sea ice fields for unphysical values. In the perturbed restarts, we ensure that sea ice concentration does not exceed 1 or subceed 0. We ensure that sea ice thickness does not subceed 0. Values outside these bounds are set to their nearest bound. Finally, we set sea ice thickness to 0 where sea ice concentration is 0, and vice versa.
+      \item Modify ocean salinity such that in-situ ocean density is preserved following the 3D temperature perturbation as calculated using the equation of state from the forecast ocean model. The salinity compensation is achieved to machine precision using a simple gradient descent algorithm. The resulting coupled forecasts are thermodynamically consistent with the imposed ocean heat content anomalies without any adjustments to the initial ocean circulation, mixed layer depths, or horizontal pressure gradients. Importantly, and unlike uncoupled forecasts constrained by specified sea-surface temperatures, there are no infinite sources or sinks of heat in the resulting counterfactual forecasts. This approach is justifiable in shorter-range forecasts as there is no direct influence of salinity on the overlying atmosphere. This assumption may eventually break down at lead times comparable to ocean advective processes, for which there could be indirect feedbacks on the atmosphere associated with salinity-driven changes in the ocean state. Nevertheless, this approach works well for the medium-range and seasonal forecasts described in this study.
+    \end{enumerate}
+  
+    The perturbations used are computed using an optimal fingerprint analysis \cite{hasselmann_optimal_1993,hasselmann_multi-pattern_1997,haustein_real-time_2017}. We first calculate the Anthropogenic Warming Index (AWI) using anthropogenic and natural radiative forcings from AR6 \cite{masson-delmotte_earths_2021} and the HadCRUT5 global mean surface temperature dataset \cite{morice_updated_2021}. The AWI provides us with a plausible estimate of the fingerprint of anthropogenic influence on other climate variables \cite{hasselmann_optimal_1993}. For each perturbed variable, we then regress observed timeseries at each gridpoint onto the AWI, using the following data sources:
+  
+    \begin{itemize}
+      \item Sea ice thickness: ORAS5 (1958:2019) \cite{zuo_ecmwf_2019}
+      \item Sea ice concentration: ORAS5 (1958:2019) \cite
+      {zuo_ecmwf_2019}
+      \item Sea surface temperature: HadISSTv1.1 (1870-2019) \cite{rayner_global_2003}
+      \item Subsurface temperature: WOA18 (1950-2017) \cite{locarnini_world_2019}
+    \end{itemize}
+  
+    We then scale the computed regression coefficients at each point by the change in AWI between the pre-industrial period of 1850-1900 and 2019 to produce our final estimated perturbations. The sea surface, and zonally and globally averaged temperature profiles are shown in Figure \ref{fig4.4}.
+  
+    Finally, we combine the sea surface and subsurface temperature perturbations. We did not use a subsurface temperature dataset in isolation since observations of the sea surface temperature are considerably more abundant in the early 20th century than observations of subsurface temperatures, and since the temperatures at and near the surface are likely to be the most important for the medium-range forecasts performed, we leveraged the additional information contained in observed sea surface temperatures. We combine the two by relaxing the sea surface perturbation towards the subsurface perturbation using a relaxation depth scale of 60m (the surface autocorrelation scale in WOA18).
+  
+    We note that estimation of the perturbation, and in particular the subsurface temperatures, is associated with considerable uncertainty due to the lack of observations in the pre-ARGO era. Here we have used a single best-estimate perturbation due to constraints on the available computational resource, but to account for this uncertainty an ensemble of perturbations could be applied \cite{sparrow_attributing_2018}. A possible way in which such an ensemble could be derived would be to apply optimal fingerprinting to an ensemble of coupled climate models.
+  
     \clearpage
     \begin{figure}[h]
       \centering
-      \includegraphics[width=0.8\textwidth]{{Fig4.1}.png}
-      \caption[Features and forecasts of the Pacific Northwest heatwave.]{\textbf{Features and forecasts of the Pacific Northwest heatwave. Top panel:} Surface temperature anomalies at the time of the peak heat during the heatwave within the region enclosed by 45-52N, 119-123W (indicated by the dotted rectangle). Solid black contours show the 500 hPa geopotential height anomaly averaged over 26-30th June 2021. Data are from ERA5 reanalysis \cite{hersbach_era5_2020}. \textbf{Inset:} timeseries of annual maximum temperatures for the same dotted region. \textbf{Bottom panels:} As above, but taken from the ensemble member within the forecast initialised on the date given above each panel that predicted the nearest temperature to the reanalysis within the dotted region.}
-      \label{fig4.1}
+      \includegraphics[width=\textwidth]{{Fig4.S1}.png}
+      \caption[The initial ocean state perturbation applied.]{\textbf{The initial ocean state perturbation applied. Left panel:} map of the surface temperature perturbation. \textbf{Inset:} timeseries of annual maximum temperatures for the same dotted region. \textbf{Top right panel:} map of zonally averaged temperature perturbations as a function of depth. \textbf{Bottom right panel:} globally averaged temperature perturbation as a function of depth. Note that the x-axis switches from a linear to logarithmic scale at a depth of 500m.}
+      \label{fig4.4}
     \end{figure}
     \clearpage
+  
+  \subsection*{Bias correction of seasonal forecast ensembles}
+  
+    Climate drift can be an issue in the use of coupled seasonal forecast models \cite{stockdale_coupled_1997}. We find a non-negligible drift in the daily maximum temperature SEAS5 forecast ensemble initialised in May over the PNW region. This drift results in a positive temperature bias that grows with lead time. Hence using the raw model output in our analysis would overestimate the probability of the PNW heatwave. 
+  
+    To account for the drift, we perform a simple bias-correction procedure on the seasonal forecast ensembles, informed by comparing the SEAS5 hindcasts over 1981-2020 with ERA5 reanalysis data over 1950-2020 (using the full time period that data is available and excluding the year of the event, 2021). We do this in three steps:
+    
+    \begin{enumerate}
+      \item Remove the attributable forced trend from both the reanalysis and hindcasts by regressing mean JJA daily maximum temperatures onto the AWI \cite{hasselmann_optimal_1993}.
+      \item Remove the drift from these detrended hindcasts, estimated by averaging the hindcasts for each lead time over all years and ensemble members, subtracting this from the corresponding reanalysis average over all years, and then regressing this timeseries onto the (linear) lead times, producing a linearly lead-time dependent drift correction \cite{stockdale_coupled_1997}.
+      \item The drift-corrected hindcasts still exhibit a positive bias during periods of extreme high temperatures. Hence we finally remove the remaining mean bias in annual maximum temperatures in the hindcasts compared to reanalysis.
+    \end{enumerate}
+  
+    We apply this bias correction procedure to both the seasonal hindcasts shown in Figure \ref{fig4.3} and used to estimate the return time of the event, and to the operational and perturbed seasonal forecasts of the 2021 summer. Figure \ref{fig4.5} shows the results of this bias correction procedure, following \citet{thompson_high_2017}.
+  
+    We note that validation of the bias correction procedure on the SEAS5 distribution of annual maximum temperatures (TXx) is challenging due to the unprecedented nature of the 2021 event. If we perform an analysis of the higher-order moments of the SEAS5 and “observed” (ERA5 reanalysis over 1950-2020) distributions of TXx \cite{thompson_high_2017}, we find that the bias-corrected ensemble tends to have larger values of higher-order moments than the observed timeseries. However, if the 2021 event is included in the observed distribution, then the opposite is found, due to the large impact of such an outlier on these moments. This sensitivity to inclusion / exclusion of the 2021 event, demonstrated in Figure \ref{fig4.5}, is why we have opted to perform a simple but physically motivated bias correction rather than a more complex statistical correction such as a quantile map.
+  
+    \clearpage
+    \begin{figure}[h]
+      \centering
+      \includegraphics[width=\textwidth]{{Fig4.S2}.png}
+      \caption[Validation of the bias correction applied to the SEAS5 seasonal forecast simulations.]{\textbf{Validation of the bias correction applied to the SEAS5 seasonal forecast simulations}, following \citet{thompson_high_2017} Figure 2. \textbf{Left panel:} PDFs of summer maximum temperatures in detrended reanalysis, and raw and bias-corrected seasonal hindcasts. \textbf{Right panels:} CDFs of detrended proxy raw and bias-corrected seasonal hindcast timeseries mean, variance, skewness and kurtosis compared to reanalysis values. In all panels, we show reanalysis both including and excluding the 2021 PNW heatwave.}
+      \label{fig4.5}
+    \end{figure}
+    \clearpage
+  
+  \subsection*{Statistical methodology}
+  
+    \paragraph*{Intensity changes}
+  
+      We calculate changes in intensity as the difference between the average of the nearest quintile of each ensemble to the event (in terms of peak temperatures). For the three longer leads, this is effectively the difference between the averages of the uppermost quintile of the two ensembles.
+  
+    \paragraph*{Risk changes}
+  
+      We calculate the risk ratio by first fitting either a generalised extreme value (GEV) distribution to the full operational ensemble (for the shortest lead) or a straight line on a return-time diagram (ie. an exponential tail) to the nearest quintile of either the operational ensemble (for the other two medium-range leads) or the model climatology (for the seasonal lead, since the tail of the operational ensemble lies considerably further below the event threshold than the tail of the much larger model climatology). We do this because while the shortest lead ensemble is well represented by a GEV distribution, the other three are not, and have generally heavier tails than estimated by likelihood-maximising GEV distributions. In these cases, where the event threshold lies in the extreme tail of the ensemble, the tail properties of the approximating distribution project considerably onto the estimated probability of the event. Hence to avoid any undue assumptions on the tail shape, we fit a straight line on a return-time diagram such as Figure \ref{fig4.3} (assuming an exponential tail) to the nearest quintile. 
+  
+      After fitting an appropriate distribution, we then shift the location of this distribution by the estimated attributable warming. We then calculate the probability of observing an event at least as intense as the PNW heatwave (the dashed line in Figure \ref{fig4.3}) in the original distribution and the shifted distribution. The risk ratio is the ratio of these two probabilities ($P_\text{current} / P_\text{shifted}$).
+  
+      Throughout, confidence intervals are calculated using a 10,000 member non-parametric bootstrap with replacement.
 
 \section{Forecast-based attribution}
 
@@ -108,97 +199,10 @@ Chapter description.
 
   \paragraph*{Concluding remarks}
 
-    In this study, we have used a numerical weather forecast-based approach to determine the contribution of human influence to a specific unprecedented extreme event. We used a state-of-the-art coupled operational weather forecast model that was unequivocally able to simulate the event in question, demonstrated by a successful prediction. Our perturbed initial condition approach maintains consistency with the measured changes in upper ocean heat content, unlike many previous approaches. We view this forecast-based approach as synthesising the storyline and probabilistic approaches to event attribution, keeping the event specificity of the storyline approach while still providing meaningful estimates of the changing risk of the extreme in question. Given that it is increasingly clear that we need to go beyond the meteorology of event attribution, and into the societal impacts \cite{mitchell_climate_2021,mitchell_increased_2022}, we suggest that our approach would be particularly well placed to advance this agenda, especially in the context of extremes in a future climate.
-
-\section{Methods}
-
-\subsection*{Event definition}
-
-  How the extreme event of interest is quantified - the event definition - is a key methodological decision that must be made in extreme event attribution studies. A significant amount of previous work has shown the impact of the event definition on the quantitative outcome of the analysis \cite{uhe_comparison_2016,kirchmeieryoung_importance_2019,angelil_nonlinearity_2018}. In this study we use a definition consistent with a previous attribution study of the PNW heatwave \cite{philip_rapid_2021} to allow for a comparison between our forecast-based approach and their probabilistic statistical and climate-model based approach.
-
-  We first average maximum temperatures over the region enclosed by 45--52N, 119--123W (indicated by the dotted rectangles in Figures \ref{fig4.1} \& \ref{fig4.2}). For the event as observed in the ERA5 reanalysis \cite{hersbach_era5_2020} we then take the peak temperature recorded during the heatwave, which occurred at 00 UTC on 2021-06-29. For the event as simulated in the medium-range forecast ensemble members, we take the peak temperature that occurred between the 26-30th June, the period over which the heatwave occurred in reality. For the event as simulated in the seasonal forecast ensemble members, which we would not expect to predict the precise timing of the heatwave, we take the peak temperature over the full summer season. The differences between the event definitions of the medium-range and seasonal cases lead to the discrepancies in the climatologies shown in Figure \ref{fig4.3}.
-
-\subsection*{Experiment details}
-
-  \paragraph*{Model details}
-
-    The medium-range experiments we have performed use the version of the IFS EPS that was operational at the time of the PNW heatwave, CY47R2 \cite{noauthor_ifs_2020}. The forecast model atmosphere is run at a resolution of O640 ($\sim$18km) and has 137 vertical levels. The atmosphere is coupled to a 0.25 degree wave model \cite{janssen_interaction_2004}, 0.25 degree sea ice model \cite{fichefet_sensitivity_1997}, LIM2, and 0.25 degree ocean model \cite{madec_nemo_2008}, NEMO v3.4, with 75 vertical levels (ORCA025Z75 configuration). We maintain the same number of ensemble members as the operational system, 51, throughout our experiments.
-  
-    The seasonal experiments are performed with ECMWF`s operational seasonal forecasting system, SEAS5 \cite{johnson_seas5_2019}. This uses IFS CY43R1 \cite{noauthor_ifs_2016} at a horizontal resolution of Tco319 (~36 km) with 91 vertical levels. The seasonal configuration of IFS CY43R1 is coupled to a 0.5 degree wave model, LIM2, and NEMO v3.4 in the ORCA025Z75 configuration. We maintain the same number of ensemble members as the operational system, 51, throughout our experiments.
-
-  \paragraph*{Simulation setup}
-
-  Our experiments all use the exact operational setup (model configuration and initial conditions) as their base. To this setup, we:
-
-  \begin{enumerate}
-    \item Change the CO2 concentrations used to a “pre-industrial” level of 285 ppm, and a “future” level of 615 ppm. These represent the same fractional change in opposite directions from the present-day concentration of 420 ppm used in the operational forecast system.
-    \item Subtract (for the pre-industrial forecast) or add (for the future forecast) a perturbation of the estimated anthropogenic influence on the ocean state since the pre-industrial period from the initial conditions of the forecasts (through the ocean restart files). The estimation of this perturbation is described below. We use estimated perturbations for 3D temperature, sea ice concentration, and sea ice thickness.
-    \item Check the sea ice fields for unphysical values. In the perturbed restarts, we ensure that sea ice concentration does not exceed 1 or subceed 0. We ensure that sea ice thickness does not subceed 0. Values outside these bounds are set to their nearest bound. Finally, we set sea ice thickness to 0 where sea ice concentration is 0, and vice versa.
-    \item Modify ocean salinity such that in-situ ocean density is preserved following the 3D temperature perturbation as calculated using the equation of state from the forecast ocean model. The salinity compensation is achieved to machine precision using a simple gradient descent algorithm. The resulting coupled forecasts are thermodynamically consistent with the imposed ocean heat content anomalies without any adjustments to the initial ocean circulation, mixed layer depths, or horizontal pressure gradients. Importantly, and unlike uncoupled forecasts constrained by specified sea-surface temperatures, there are no infinite sources or sinks of heat in the resulting counterfactual forecasts. This approach is justifiable in shorter-range forecasts as there is no direct influence of salinity on the overlying atmosphere. This assumption may eventually break down at lead times comparable to ocean advective processes, for which there could be indirect feedbacks on the atmosphere associated with salinity-driven changes in the ocean state. Nevertheless, this approach works well for the medium-range and seasonal forecasts described in this study.
-  \end{enumerate}
-
-  The perturbations used are computed using an optimal fingerprint analysis \cite{hasselmann_optimal_1993,hasselmann_multi-pattern_1997,haustein_real-time_2017}. We first calculate the Anthropogenic Warming Index (AWI) using anthropogenic and natural radiative forcings from AR6 \cite{masson-delmotte_earths_2021} and the HadCRUT5 global mean surface temperature dataset \cite{morice_updated_2021}. The AWI provides us with a plausible estimate of the fingerprint of anthropogenic influence on other climate variables \cite{hasselmann_optimal_1993}. For each perturbed variable, we then regress observed timeseries at each gridpoint onto the AWI, using the following data sources:
-
-  \begin{itemize}
-    \item Sea ice thickness: ORAS5 (1958:2019) \cite{zuo_ecmwf_2019}
-    \item Sea ice concentration: ORAS5 (1958:2019) \cite
-    {zuo_ecmwf_2019}
-    \item Sea surface temperature: HadISSTv1.1 (1870-2019) \cite{rayner_global_2003}
-    \item Subsurface temperature: WOA18 (1950-2017) \cite{locarnini_world_2019}
-  \end{itemize}
-
-  We then scale the computed regression coefficients at each point by the change in AWI between the pre-industrial period of 1850-1900 and 2019 to produce our final estimated perturbations. The sea surface, and zonally and globally averaged temperature profiles are shown in Figure \ref{fig4.4}.
-
-  Finally, we combine the sea surface and subsurface temperature perturbations. We did not use a subsurface temperature dataset in isolation since observations of the sea surface temperature are considerably more abundant in the early 20th century than observations of subsurface temperatures, and since the temperatures at and near the surface are likely to be the most important for the medium-range forecasts performed, we leveraged the additional information contained in observed sea surface temperatures. We combine the two by relaxing the sea surface perturbation towards the subsurface perturbation using a relaxation depth scale of 60m (the surface autocorrelation scale in WOA18).
-
-  We note that estimation of the perturbation, and in particular the subsurface temperatures, is associated with considerable uncertainty due to the lack of observations in the pre-ARGO era. Here we have used a single best-estimate perturbation due to constraints on the available computational resource, but to account for this uncertainty an ensemble of perturbations could be applied \cite{sparrow_attributing_2018}. A possible way in which such an ensemble could be derived would be to apply optimal fingerprinting to an ensemble of coupled climate models.
-
-  \clearpage
-  \begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{{Fig4.S1}.png}
-    \caption[The initial ocean state perturbation applied.]{\textbf{The initial ocean state perturbation applied. Left panel:} map of the surface temperature perturbation. \textbf{Inset:} timeseries of annual maximum temperatures for the same dotted region. \textbf{Top right panel:} map of zonally averaged temperature perturbations as a function of depth. \textbf{Bottom right panel:} globally averaged temperature perturbation as a function of depth. Note that the x-axis switches from a linear to logarithmic scale at a depth of 500m.}
-    \label{fig4.4}
-  \end{figure}
-  \clearpage
-
-\subsection*{Bias correction of seasonal forecast ensembles}
-
-  Climate drift can be an issue in the use of coupled seasonal forecast models \cite{stockdale_coupled_1997}. We find a non-negligible drift in the daily maximum temperature SEAS5 forecast ensemble initialised in May over the PNW region. This drift results in a positive temperature bias that grows with lead time. Hence using the raw model output in our analysis would overestimate the probability of the PNW heatwave. 
-
-  To account for the drift, we perform a simple bias-correction procedure on the seasonal forecast ensembles, informed by comparing the SEAS5 hindcasts over 1981-2020 with ERA5 reanalysis data over 1950-2020 (using the full time period that data is available and excluding the year of the event, 2021). We do this in three steps:
-  
-  \begin{enumerate}
-    \item Remove the attributable forced trend from both the reanalysis and hindcasts by regressing mean JJA daily maximum temperatures onto the AWI \cite{hasselmann_optimal_1993}.
-    \item Remove the drift from these detrended hindcasts, estimated by averaging the hindcasts for each lead time over all years and ensemble members, subtracting this from the corresponding reanalysis average over all years, and then regressing this timeseries onto the (linear) lead times, producing a linearly lead-time dependent drift correction \cite{stockdale_coupled_1997}.
-    \item The drift-corrected hindcasts still exhibit a positive bias during periods of extreme high temperatures. Hence we finally remove the remaining mean bias in annual maximum temperatures in the hindcasts compared to reanalysis.
-  \end{enumerate}
-
-  We apply this bias correction procedure to both the seasonal hindcasts shown in Figure \ref{fig4.3} and used to estimate the return time of the event, and to the operational and perturbed seasonal forecasts of the 2021 summer. Figure \ref{fig4.5} shows the results of this bias correction procedure, following \citet{thompson_high_2017}.
-
-  We note that validation of the bias correction procedure on the SEAS5 distribution of annual maximum temperatures (TXx) is challenging due to the unprecedented nature of the 2021 event. If we perform an analysis of the higher-order moments of the SEAS5 and “observed” (ERA5 reanalysis over 1950-2020) distributions of TXx \cite{thompson_high_2017}, we find that the bias-corrected ensemble tends to have larger values of higher-order moments than the observed timeseries. However, if the 2021 event is included in the observed distribution, then the opposite is found, due to the large impact of such an outlier on these moments. This sensitivity to inclusion / exclusion of the 2021 event, demonstrated in Figure \ref{fig4.5}, is why we have opted to perform a simple but physically motivated bias correction rather than a more complex statistical correction such as a quantile map.
-
-  \clearpage
-  \begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{{Fig4.S2}.png}
-    \caption[Validation of the bias correction applied to the SEAS5 seasonal forecast simulations.]{\textbf{Validation of the bias correction applied to the SEAS5 seasonal forecast simulations}, following \citet{thompson_high_2017} Figure 2.}
-    \label{fig4.5}
-  \end{figure}
-  \clearpage
-
-\subsection*{Statistical methodology}
-
-  \paragraph*{Intensity changes}
-
-    We calculate changes in intensity as the difference between the average of the nearest quintile of each ensemble to the event (in terms of peak temperatures). For the three longer leads, this is effectively the difference between the averages of the uppermost quintile of the two ensembles.
-
-  \paragraph*{Risk changes}
-
-    We calculate the risk ratio by first fitting either a generalised extreme value (GEV) distribution to the full operational ensemble (for the shortest lead) or a straight line on a return-time diagram (ie. an exponential tail) to the nearest quintile of either the operational ensemble (for the other two medium-range leads) or the model climatology (for the seasonal lead, since the tail of the operational ensemble lies considerably further below the event threshold than the tail of the much larger model climatology). We do this because while the shortest lead ensemble is well represented by a GEV distribution, the other three are not, and have generally heavier tails than estimated by likelihood-maximising GEV distributions. In these cases, where the event threshold lies in the extreme tail of the ensemble, the tail properties of the approximating distribution project considerably onto the estimated probability of the event. Hence to avoid any undue assumptions on the tail shape, we fit a straight line on a return-time diagram such as Figure \ref{fig4.3} (assuming an exponential tail) to the nearest quintile. 
-
-    After fitting an appropriate distribution, we then shift the location of this distribution by the estimated attributable warming. We then calculate the probability of observing an event at least as intense as the PNW heatwave (the dashed line in Figure \ref{fig4.3}) in the original distribution and the shifted distribution. The risk ratio is the ratio of these two probabilities ($P_\text{current} / P_\text{shifted}$).
-
-    Throughout, confidence intervals are calculated using a 10,000 member non-parametric bootstrap with replacement.
+    In this study, we have used a numerical weather forecast-based approach to determine the contribution of human influence to a specific unprecedented extreme event. We used a state-of-the-art coupled operational weather forecast model that was unequivocally able to simulate the event in question, demonstrated by a successful prediction. Our perturbed initial condition approach maintains consistency with the measured changes in upper ocean heat content, unlike many previous approaches. We view this forecast-based approach as synthesising the storyline and probabilistic approaches to event attribution, keeping the event specificity of the storyline approach while still providing meaningful estimates of the changing risk of the extreme in question. Given that it is increasingly clear that we need to go beyond the meteorology of event attribution, and into the societal impacts \cite{mitchell_climate_2021,mitchell_increased_2022}, we suggest that our approach would be particularly well-placed to advance this agenda, especially in the context of extremes in a future climate.
 
 \section{Chapter close}
+
+  In this chapter, the key takeaway is that we have been able to use a relatively simple methodology to produce counterfactual forecasts of an individual extreme weather, which we can then use to estimate the anthropogenic component of that event. This methodology is very similar to that used by \citet{pall_anthropogenic_2011}, and is based on perturbing the forecast initial conditions, but has been adapted to allow coupled weather forecast models to be used. There remain a number of outstanding issues with the approach we have taken, most notably whether we should be --- and how we should go about --- perturbing the initial atmospheric and land-surface states too. In terms of remaining scientific questions, a particularly interesting avenue would be to explore how atmospheric predictability changes in counterfactual forecasts. We have been surprised at how consistent the predictability of our case study extreme events is, even when `kicking' the model as hard as we have done. It would be very interesting, and important for forecast-based approaches in general, to determine if there are particular situations where predictability breaks down in the counterfactual worlds. Unfortunately, I cannot address these questions within the scope of this thesis, but I discuss them further, including how they might be addressed in the future, in the Discussion chapter \ref{discussion}. I am, however, happy to have taken our forecast-based approach as far as the stage presented in this chapter!
+
+  Although the clear immediate application of the approach described in this chapter would be an operational attribution service, I am particularly interested in exploring how the same approach could be used for climate projection of extreme events. There are additional uncertainties associated with projection, including the socio-economic pathway taken, and the pattern of ocean warming, but such a forecast-based approach to projection would still confer many of the advantages I have argued that it does for attribution \citep[e.g.][]{hazeleger_tales_2015}. This shift in focus to climate projection fits in neatly with the following chapter \ref{ch5}, in which I explore a novel methodology for generating a rich variety of samples of future extreme weather that could be used for adaptation planning. I suggest that climate projection using counterfactual forecasts could complement the approach taken in chapter \ref{ch5} by providing understanding and information about specific damaging extremes. This would be a natural direction for future work; as I discuss further in the Discussion \ref{discussion}.
