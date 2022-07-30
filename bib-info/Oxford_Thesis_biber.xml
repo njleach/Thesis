@@ -1508,7 +1508,7 @@
     <abstract>Apart from global scale surface warming, anthropogenic forcings also lead to warming and thermal expansion of the lower atmosphere. Here we investigate these effects using the geopotential height at 500 hPa, an indicator of the combined thermodynamic and dynamic climatic response to external forcings. We employ optimal fingerprinting, which uses information from reanalysis data sets and experiments with seven state-of-the-art climate models, to assess the role of anthropogenic and natural influences on changes in the geopotential height during the satellite era. A significant global increase in the annual and seasonal mean geopotential height due to human influence is detected, a result confirmed with four different reanalysis data sets. A more moderate increase in the annual mean associated with natural forcings is also detected. Our findings, consistent with previous detection and attribution studies of changes in temperature and sea level pressure, indicate the prominent role of human influence on some recent climatic changes.</abstract>
     <note>_eprint: https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015GL066669</note>
     <subject>
-        <topic>anthropogenic forcings,detection and attribution</topic>
+        <topic>detection and attribution,anthropogenic forcings</topic>
     </subject>
     <identifier type="citekey">christidis_changes_2015</identifier>
     <identifier type="doi">10.1002/2015GL066669</identifier>
@@ -3312,7 +3312,7 @@
     <abstract>“It is now well established that the influence of anthropogenic climate change on certain individual extreme weather events can be quantified by event attribution techniques. It is time that these activities move from the research community to the operational centers. Such routine evaluation of the human influence on extreme weather increases our scientific understanding and informs the public of climate change impacts. Furthermore, quantification of the human influence on extreme weather can be used to fairly evaluate climate change induced loss and damages”.</abstract>
     <note>Publisher: Public Library of Science</note>
     <subject>
-        <topic>Climate change,Finance,Global warming,Hurricanes,Meteorology,Simulation and modeling,Storms,Weather</topic>
+        <topic>Climate change,Global warming,Hurricanes,Weather,Finance,Meteorology,Simulation and modeling,Storms</topic>
     </subject>
     <identifier type="citekey">wehner_operational_2022</identifier>
     <identifier type="doi">10.1371/journal.pclm.0000013</identifier>
@@ -5586,7 +5586,7 @@
     <abstract>There is a tremendous desire to attribute causes to weather and climate events that is often challenging from a physical standpoint. Headlines attributing an event solely to either human-induced climate change or natural variability can be misleading when both are invariably in play. The conventional attribution framework struggles with dynamically driven extremes because of the small signal-to-noise ratios and often uncertain nature of the forced changes. Here, we suggest that a different framing is desirable, which asks why such extremes unfold the way they do. Specifically, we suggest that it is more useful to regard the extreme circulation regime or weather event as being largely unaffected by climate change, and question whether known changes in the climate system’s thermodynamic state affected the impact of the particular event. Some examples briefly illustrated include ‘snowmaggedon’ in February 2010, superstorm Sandy in October 2012 and supertyphoon Haiyan in November 2013, and, in more detail, the Boulder floods of September 2013, all of which were influenced by high sea surface temperatures that had a discernible human component.</abstract>
     <note>Publisher: Nature Publishing Group</note>
     <subject>
-        <topic>Attribution,change impacts,Climate</topic>
+        <topic>Climate,Attribution,change impacts</topic>
     </subject>
     <identifier type="citekey">trenberth_attribution_2015</identifier>
     <identifier type="doi">10.1038/NCLIMATE2657</identifier>
@@ -6627,6 +6627,145 @@
     <abstract>Abstract Finite systems of deterministic ordinary nonlinear differential equations may be designed to represent forced dissipative hydrodynamic flow. Solutions of these equations can be identified ...</abstract>
     <identifier type="citekey">lorenz_deterministic_1963</identifier>
     <identifier type="doi">10.1175/1520-0469(1963)020&lt;0130:DNF&gt;2.0.CO;2</identifier>
+</mods>
+<mods ID="athanasiadis_mitigating_2022">
+    <titleInfo>
+        <title>Mitigating climate biases in the mid-latitude North Atlantic by increasing model resolution</title>
+        <subTitle>SST gradients and their relation to blocking and the jet.</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Panos</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Athanasiadis</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Fumiaki</namePart>
+        <namePart type="family">Ogawa</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Nour-Eddine</namePart>
+        <namePart type="family">Omrani</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Noel</namePart>
+        <namePart type="family">Keenlyside</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Reinhard</namePart>
+        <namePart type="family">Schiemann</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alexander</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Baker</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Pier</namePart>
+        <namePart type="given">Luigi</namePart>
+        <namePart type="family">Vidale</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alessio</namePart>
+        <namePart type="family">Bellucci</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Paolo</namePart>
+        <namePart type="family">Ruggieri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Rein</namePart>
+        <namePart type="family">Haarsma</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Malcolm</namePart>
+        <namePart type="family">Roberts</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chris</namePart>
+        <namePart type="family">Roberts</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Lenka</namePart>
+        <namePart type="family">Novak</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Silvio</namePart>
+        <namePart type="family">Gualdi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre>journal article</genre>
+    <language>
+        <languageTerm type="text">EN</languageTerm>
+    </language>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre>academic journal</genre>
+        <identifier type="issn">0894-8755, 1520-0442</identifier>
+    </relatedItem>
+    <abstract>Abstract Starting to resolve the oceanic mesoscale in climate models is a step change in model fidelity. This study examines how certain obstinate biases in the midlatitude North Atlantic respond to increasing resolution (from 1° to 0.25° in the ocean) and how such biases in sea surface temperature (SST) affect the atmosphere. Using a multi-model ensemble of historical climate simulations run at different horizontal resolutions, it is shown that a severe cold SST bias in the central North Atlantic, common to many ocean models, is significantly reduced with increasing resolution. The associated bias in the time-mean meridional SST gradient is shown to relate to a positive bias in low-level baroclinicity, while the cold SST bias causes biases also in static stability and diabatic heating in the interior of the atmosphere. The changes in baroclinicity and diabatic heating brought by increasing resolution lead to improvements in European blocking and eddy-driven jet variability. Across the multi-model ensemble a clear relationship is found between the climatological meridional SST gradients in the broader Gulf Stream Extension area and two aspects of the atmospheric circulation: the frequency of high-latitude blocking and the southern-jet regime. This relationship is thought to reflect the two-way interaction (with a positive feedback) between the respective oceanic and atmospheric anomalies. These North Atlantic SST anomalies are shown to be important in forcing significant responses in the midlatitude atmospheric circulation, including jet variability and the stormtrack. Further increases in oceanic and atmospheric resolution are expected to lead to additional improvements in the representation of Euro-Atlantic climate.</abstract>
+    <note>Publisher: American Meteorological Society Section: Journal of Climate</note>
+    <identifier type="citekey">athanasiadis_mitigating_2022</identifier>
+    <identifier type="doi">10.1175/JCLI-D-21-0515.1</identifier>
+    <location>
+        <url>https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-21-0515.1/JCLI-D-21-0515.1.xml</url>
+        <url displayLabel="Electronic full text" access="raw object">/home/leachl/Zotero/storage/5IUTZT3K/Athanasiadis et al. - 2022 - Mitigating climate biases in the mid-latitude Nort.pdf:application/pdf;Snapshot:/home/leachl/Zotero/storage/C68XBU24/JCLI-D-21-0515.1.html</url>
+    </location>
+    <part>
+        <detail type="volume"><number>-1</number></detail>
+        <detail type="issue"><number>aop</number></detail>
+        <extent unit="page">
+            <start>1</start>
+            <end>61</end>
+        </extent>
+    </part>
 </mods>
 <mods ID="hersbach_era5_2020">
     <titleInfo>
@@ -8513,6 +8652,67 @@
         </extent>
     </part>
 </mods>
+<mods ID="steinfeld_response_2022">
+    <titleInfo>
+        <title>Response of moist and dry processes in atmospheric blocking to climate change</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Daniel</namePart>
+        <namePart type="family">Steinfeld</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Michael</namePart>
+        <namePart type="family">Sprenger</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Urs</namePart>
+        <namePart type="family">Beyerle</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Stephan</namePart>
+        <namePart type="family">Pfahl</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre>journal article</genre>
+    <language>
+        <languageTerm type="text">en</languageTerm>
+    </language>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre>academic journal</genre>
+        <identifier type="issn">1748-9326</identifier>
+    </relatedItem>
+    <abstract>Weather extremes are often associated with atmospheric blocking, but how the underlying physical processes leading to blocking respond to climate change is not yet fully understood. Here we track blocks as upper-level negative potential vorticity (PV) anomalies and apply a Lagrangian analysis to 100 years of present-day (∼2000) and future (∼2100, under the RCP8.5 scenario) climate simulations restarted from the Community Earth System Model–Large Ensemble Project runs (CESM-LENS) to identify different physical processes and quantify how their relative importance changes in a warmer and more humid climate. The trajectories reveal two contrasting airstreams that both contribute to the formation and maintenance of blocking: latent heating in strongly ascending airstreams (moist processes) and quasi-adiabatic flow near the tropopause with weak radiative cooling (dry processes). Both are reproduced remarkably well when compared against ERA-Interim reanalysis, and their relative importance varies regionally and seasonally. The response of blocks to climate change is complex and differs regionally, with a general increase in the importance of moist processes due to stronger latent heating (+1 K in the median over the Northern Hemisphere) and a larger fraction (+15%) of strongly heated warm conveyor belt air masses, most pronounced over the storm tracks. Future blocks become larger (+7%) and their negative PV anomaly slightly intensifies (+0.8%). Using a Theil–Sen regression model, we propose that the increase in size and intensity is related to the increase in latent heating, resulting in stronger cross-isentropic transport of air with low PV into the blocking anticyclones. Our findings provide evidence that moist processes become more important for the large-scale atmospheric circulation in the midlatitudes, with the potential for larger and more intense blocks.</abstract>
+    <note>Publisher: IOP Publishing</note>
+    <identifier type="citekey">steinfeld_response_2022</identifier>
+    <identifier type="doi">10.1088/1748-9326/ac81af</identifier>
+    <location>
+        <url displayLabel="Electronic full text" access="raw object">/home/leachl/Zotero/storage/DGKSH644/Steinfeld et al. - 2022 - Response of moist and dry processes in atmospheric.pdf</url>
+    </location>
+    <part>
+        <detail type="volume"><number>17</number></detail>
+        <detail type="issue"><number>8</number></detail>
+        <detail type="page"><number>084020</number></detail>
+    </part>
+</mods>
 <mods ID="young_record-breaking_2020">
     <titleInfo>
         <title>The record-breaking warm spell of February 2019 in Britain, the Channel Islands, France and the Netherlands</title>
@@ -8624,6 +8824,62 @@
     <part>
         <detail type="volume"><number>118</number></detail>
         <detail type="issue"><number>49</number></detail>
+    </part>
+</mods>
+<mods ID="allen_constraints_2002">
+    <titleInfo>
+        <title>Constraints on future changes in climate and the hydrologic cycle</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Myles</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Allen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">William</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Ingram</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre>journal article</genre>
+    <language>
+        <languageTerm type="text">en</languageTerm>
+    </language>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre>academic journal</genre>
+        <identifier type="issn">1476-4687</identifier>
+    </relatedItem>
+    <abstract>What can we say about changes in the hydrologic cycle on 50-year timescales when we cannot predict rainfall next week? Eventually, perhaps, a great deal: the overall climate response to increasing atmospheric concentrations of greenhouse gases may prove much simpler and more predictable than the chaos of short-term weather. Quantifying the diversity of possible responses is essential for any objective, probability-based climate forecast, and this task will require a new generation of climate modelling experiments, systematically exploring the range of model behaviour that is consistent with observations. It will be substantially harder to quantify the range of possible changes in the hydrologic cycle than in global-mean temperature, both because the observations are less complete and because the physical constraints are weaker.</abstract>
+    <note>Number: 6903 Publisher: Nature Publishing Group</note>
+    <subject>
+        <topic>Humanities and Social Sciences,multidisciplinary,Science</topic>
+    </subject>
+    <identifier type="citekey">allen_constraints_2002</identifier>
+    <identifier type="doi">10.1038/nature01092</identifier>
+    <location>
+        <url>https://www.nature.com/articles/nature01092</url>
+        <url displayLabel="Electronic full text" access="raw object">/home/leachl/Zotero/storage/S6DFUBD2/Allen and Ingram - 2002 - Constraints on future changes in climate and the h.pdf:application/pdf;Snapshot:/home/leachl/Zotero/storage/5BDWGC69/nature01092.html</url>
+    </location>
+    <part>
+        <detail type="volume"><number>419</number></detail>
+        <detail type="issue"><number>6903</number></detail>
+        <extent unit="page">
+            <start>228</start>
+            <end>232</end>
+        </extent>
     </part>
 </mods>
 <mods ID="horton_review_2016">
@@ -15608,7 +15864,7 @@
     <abstract>Atmospheric rivers are long and narrow bands of enhanced water vapour transport concentrated in the lower troposphere. Many studies have documented the important role of cold-season atmospheric rivers in producing heavy precipitation and extreme flooding events. Relatively little research has been conducted on the warm-season atmospheric rivers and their impacts on heatwave events. Here we show an anomalous warm-season atmospheric river moving across the North Pacific and its interaction with the extreme western North American heatwave in late June 2021. This system transported moisture and heat energy from Southeast Asia to the northeast Pacific. Its landfall over Southeast Alaska resulted in substantial spillover of moisture and sensible heat beyond the Pacific Coast Ranges. We provide evidence indicating that the sensible heat flux convergence and the short-lived greenhouse effect of the trapped moisture could form a positive feedback mechanism leading to the northward expansion of the heatwave event across western Canada.</abstract>
     <note>Number: 1 Publisher: Nature Publishing Group</note>
     <subject>
-        <topic>Atmospheric dynamics,Climate change,Natural hazards</topic>
+        <topic>Climate change,Atmospheric dynamics,Natural hazards</topic>
     </subject>
     <identifier type="citekey">mo_anomalous_2022</identifier>
     <identifier type="doi">10.1038/s43247-022-00459-w</identifier>
@@ -17780,62 +18036,6 @@
         <extent unit="page">
             <start>1927</start>
             <end>2058</end>
-        </extent>
-    </part>
-</mods>
-<mods ID="allen_constraints_2002">
-    <titleInfo>
-        <title>Constraints on future changes in climate and the hydrologic cycle</title>
-    </titleInfo>
-    <name type="personal">
-        <namePart type="given">Myles</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Allen</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">William</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Ingram</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <typeOfResource>text</typeOfResource>
-    <genre>journal article</genre>
-    <language>
-        <languageTerm type="text">en</languageTerm>
-    </language>
-    <relatedItem type="host">
-        <titleInfo>
-            <title/>
-        </titleInfo>
-        <originInfo>
-            <issuance>continuing</issuance>
-        </originInfo>
-        <genre authority="marcgt">periodical</genre>
-        <genre>academic journal</genre>
-        <identifier type="issn">1476-4687</identifier>
-    </relatedItem>
-    <abstract>What can we say about changes in the hydrologic cycle on 50-year timescales when we cannot predict rainfall next week? Eventually, perhaps, a great deal: the overall climate response to increasing atmospheric concentrations of greenhouse gases may prove much simpler and more predictable than the chaos of short-term weather. Quantifying the diversity of possible responses is essential for any objective, probability-based climate forecast, and this task will require a new generation of climate modelling experiments, systematically exploring the range of model behaviour that is consistent with observations. It will be substantially harder to quantify the range of possible changes in the hydrologic cycle than in global-mean temperature, both because the observations are less complete and because the physical constraints are weaker.</abstract>
-    <note>Number: 6903 Publisher: Nature Publishing Group</note>
-    <subject>
-        <topic>Humanities and Social Sciences,multidisciplinary,Science</topic>
-    </subject>
-    <identifier type="citekey">allen_constraints_2002</identifier>
-    <identifier type="doi">10.1038/nature01092</identifier>
-    <location>
-        <url>https://www.nature.com/articles/nature01092</url>
-        <url displayLabel="Electronic full text" access="raw object">/home/leachl/Zotero/storage/S6DFUBD2/Allen and Ingram - 2002 - Constraints on future changes in climate and the h.pdf:application/pdf;Snapshot:/home/leachl/Zotero/storage/5BDWGC69/nature01092.html</url>
-    </location>
-    <part>
-        <detail type="volume"><number>419</number></detail>
-        <detail type="issue"><number>6903</number></detail>
-        <extent unit="page">
-            <start>228</start>
-            <end>232</end>
         </extent>
     </part>
 </mods>
@@ -26881,6 +27081,113 @@
     <part>
         <detail type="volume"><number>35</number></detail>
         <detail type="page"><number>100412</number></detail>
+    </part>
+</mods>
+<mods ID="leach_fairv200_2021">
+    <titleInfo>
+        <title>FaIRv2.0.0</title>
+        <subTitle>a generalized impulse response model for climate uncertainty and future scenario exploration</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Nicholas</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Leach</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Stuart</namePart>
+        <namePart type="family">Jenkins</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zebedee</namePart>
+        <namePart type="family">Nicholls</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Christopher</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Smith</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="family">Lynch</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Michelle</namePart>
+        <namePart type="family">Cain</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Tristram</namePart>
+        <namePart type="family">Walsh</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Bill</namePart>
+        <namePart type="family">Wu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Junichi</namePart>
+        <namePart type="family">Tsutsui</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Myles</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Allen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre>journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre>academic journal</genre>
+        <identifier type="issn">1991-9603</identifier>
+    </relatedItem>
+    <abstract>Abstract. Here we present an update to the FaIR model for use in probabilistic future climate and scenario exploration, integrated assessment, policy analysis, and education. In this update we have focussed on identifying a minimum level of structural complexity in the model. The result is a set of six equations, five of which correspond to the standard impulse response model used for greenhouse gas (GHG) metric calculations in the IPCC’s Fifth Assessment Report, plus one additional physically motivated equation to represent state-dependent feedbacks on the response timescales of each greenhouse gas cycle. This additional equation is necessary to reproduce non-linearities in the carbon cycle apparent in both Earth system models and observations. These six equations are transparent and sufficiently simple that the model is able to be ported into standard tabular data analysis packages, such as Excel, increasing the potential user base considerably. However, we demonstrate that the equations are flexible enough to be tuned to emulate the behaviour of several key processes within more complex models from CMIP6. The model is exceptionally quick to run, making it ideal for integrating large probabilistic ensembles. We apply a constraint based on the current estimates of the global warming trend to a million-member ensemble, using the constrained ensemble to make scenario-dependent projections and infer ranges for properties of the climate system. Through these analyses, we reaffirm that simple climate models (unlike more complex models) are not themselves intrinsically biased “hot” or “cold”: it is the choice of parameters and how those are selected that determines the model response, something that appears to have been misunderstood in the past. This updated FaIR model is able to reproduce the global climate system response to GHG and aerosol emissions with sufficient accuracy to be useful in a wide range of applications and therefore could be used as a lowest-common-denominator model to provide consistency in different contexts. The fact that FaIR can be written down in just six equations greatly aids transparency in such contexts.</abstract>
+    <identifier type="citekey">leach_fairv200_2021</identifier>
+    <identifier type="doi">10.5194/gmd-14-3007-2021</identifier>
+    <location>
+        <url>https://gmd.copernicus.org/articles/14/3007/2021/</url>
+        <url displayLabel="Electronic full text" access="raw object">/home/leachl/Zotero/storage/2T3Y5HLH/gmd-14-3007-2021.pdf</url>
+    </location>
+    <part>
+        <detail type="volume"><number>14</number></detail>
+        <detail type="issue"><number>5</number></detail>
+        <extent unit="page">
+            <start>3007</start>
+            <end>3036</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

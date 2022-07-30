@@ -195,6 +195,9 @@
 }
 	% for linking between references, figures, TOC, etc in the pdf document
 
+% NJL: for line-breaking urls
+\usepackage{xurl}
+
 \usepackage[nohints,tight]{minitoc} 
 	\setcounter{minitocdepth}{2} 
     \mtcsetfeature{minitoc}{before}{\vspace{2ex}}
