@@ -1,3 +1,4 @@
+{\onehalfspacing%
 \begin{savequote}[8cm]
     Quote
       \qauthor{--- author}
@@ -13,7 +14,7 @@ Chapter description.
 
 \minitoc
 
-\clearpage
+\clearpage}
 
 \section{Chapter open}\label{ch4:open}
 
@@ -138,9 +139,9 @@ Chapter description.
   
     \paragraph*{Risk changes}
   
-      We calculate the risk ratio by first fitting either a generalised extreme value (GEV) distribution to the full operational ensemble (for the shortest lead) or a straight line on a return-time diagram (i.e. an exponential tail) to the nearest quintile of either the operational ensemble (for the other two medium-range leads) or the model climatology (for the seasonal lead, since the tail of the operational ensemble lies considerably further below the event threshold than the tail of the much larger model climatology). We do this because while the shortest lead ensemble is well represented by a GEV distribution, the other three are not, and have generally heavier tails than estimated by likelihood-maximising GEV distributions. In these cases, where the event threshold lies in the extreme tail of the ensemble, the tail properties of the approximating distribution project considerably onto the estimated probability of the event. Hence, to avoid any undue assumptions on the tail shape, we fit a straight line on a return-time diagram such as Figure \ref{fig4.3} (assuming an exponential tail) to the nearest quintile. 
+      We calculate the relative risk (also known as the probability ratio) by first fitting either a generalised extreme value (GEV) distribution to the full operational ensemble (for the shortest lead) or a straight line on a return-time diagram (i.e. an exponential tail) to the nearest quintile of either the operational ensemble (for the other two medium-range leads) or the model climatology (for the seasonal lead, since the tail of the operational ensemble lies considerably further below the event threshold than the tail of the much larger model climatology). We do this because while the shortest lead ensemble is well represented by a GEV distribution, the other three are not, and have generally heavier tails than estimated by likelihood-maximising GEV distributions. In these cases, where the event threshold lies in the extreme tail of the ensemble, the tail properties of the approximating distribution project considerably onto the estimated probability of the event. Hence, to avoid any undue assumptions on the tail shape, we fit a straight line on a return-time diagram such as Figure \ref{fig4.3} (assuming an exponential tail) to the nearest quintile. 
   
-      After fitting an appropriate distribution, we then shift the location of this distribution by the estimated attributable warming. We then calculate the probability of observing an event at least as intense as the PNW heatwave (the dashed line in Figure \ref{fig4.3}) in the original distribution and the shifted distribution. The risk ratio is the ratio of these two probabilities ($P_\text{current} / P_\text{shifted}$).
+      After fitting an appropriate distribution, we then shift the location of this distribution by the estimated attributable warming. We then calculate the probability of observing an event at least as intense as the PNW heatwave (the dashed line in Figure \ref{fig4.3}) in the original distribution and the shifted distribution. The relative risk is the ratio of these two probabilities ($P_\text{current} / P_\text{shifted}$).
   
       Throughout this chapter, confidence intervals are calculated using a 10,000 member non-parametric bootstrap with replacement.
 
@@ -178,7 +179,7 @@ Chapter description.
 
   Using the current rate of global warming over land \cite{haustein_real-time_2017} we can further estimate that the probability of observing an event at least as warm as the 2021 Pacific Northwest heatwave is doubling every 17 [10--50] years, and will continue to do so unless the rate of global warming decreases. Given the length of the historical record and our estimated change in probability over this period, such an event would be associated with a multi-decade to multi-century return period at the present-day, thus making this doubling time very relevant for adaptation planning. 
 
-  \clearpage
+  % \clearpage
     \begin{figure}[h]
       \centering
       \includegraphics[width=\textwidth]{{Fig4.3}.png}

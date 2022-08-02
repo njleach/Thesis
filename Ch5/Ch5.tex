@@ -1,3 +1,4 @@
+{\onehalfspacing%
 \begin{savequote}[8cm]
     Quote
       \qauthor{--- author}
@@ -13,7 +14,7 @@ In this chapter, I explore the close links between attribution of extreme weathe
 
 \minitoc
 
-\clearpage
+\clearpage}
 
 \section{Chapter open}\label{ch5:open}
 
@@ -94,14 +95,14 @@ In this chapter, I explore the close links between attribution of extreme weathe
       
       Motivated by the recent winter extremes of the record hottest UK winter day of February 26th 2019 and the record wet winter month of February 2020, we aimed to select two `hot' winters and one `wet' winter. However, the method could be applied to the winters with the coldest or driest deviations. As shown in Figure \ref{fig5.1}, there is one clear candidate for each type of extreme: UKCP18 PPE member 02868 \citep[ID numbers as][]{sexton_perturbed_2021} year 2066 as a hot winter; and member 02242 year 2068 for the wet winter. The next most extreme hot winters shown in Figure \ref{fig5.1}A all had similar deviations, so we distinguished between them on the basis of their anomalies, choosing member 01554 year 2072, which has the highest anomaly of any of the candidate winters.
 
-      % \clearpage
+      \clearpage
       \begin{figure}[h]
         \centering
         \includegraphics[]{{Fig5.1_small}.pdf}
         \caption[UKCP PPE 2061--2080 deviations from forced response.]{\textbf{UKCP PPE 2061--2080 deviations from forced response.} \textbf{A}, DJF mean of daily maximum temperatures averaged over the UK region. Coloured lines indicate the three UKCP runs from which the study winters were chosen. The study winters are circled and dotted horizontal lines indicate the deviation of each study winter. The ensemble member id of the three runs is given in the legend. \textbf{B}, as \textbf{A}, but for DJF mean precipitation.}
         \label{fig5.1}
       \end{figure}
-      \clearpage
+      % \clearpage
 
       Table 1 provides a summary of the study winters selected. For clarity, we refer to the ExSamples ensembles by the abbreviations given in the final column of Table 1 followed by `ensemble' (so the ensemble that uses the SST/SIC from UKCP18 member 02868 year 2066 is `HOT1 ensemble', and the corresponding baseline ensemble is `HOT1-B ensemble'). We use `aggregate baseline ensemble' to denote the aggregate of all three baseline ensembles. We refer to the corresponding winters as the ensemble abbreviation followed by ` winter'. Finally, we refer to the UKCP18 PPE ensembles as `UKCP' followed by the period the samples are taken from.
 
@@ -134,14 +135,14 @@ In this chapter, I explore the close links between attribution of extreme weathe
 
       The WET winter displays a strong cyclonic south-westerly flow with a low west of Ireland; classified as weather pattern 29. This pattern is associated with generally warm and wet weather. ENSO is in a neutral phase during this winter; and there are no other modes of SST variability in significantly positive or negative phases. Of the three study winters, this one has the smallest change in sea ice relative to the present-day; Arctic sea ice is almost entirely intact over the winter. 
 
-      \clearpage
+      % \clearpage
       \begin{figure}[h]
         \centering
         \includegraphics[]{{Fig5.2_small}.pdf}
         \caption[Synoptic characteristics of the study winters within the UKCP simulations.]{\textbf{Synoptic characteristics of the study winters within the UKCP simulations.} The row titles indicate the study winter. \textbf{a}, DJF mean MSLP anomalies for each winter. \textbf{b}, DJF mean SST deviations for each winter. Deviations are calculated for each gridpoint timeseries over 2061--2080. \textbf{c}, DJF mean Arctic sea ice fraction for each winter. The blue dashed line in \textbf{Aa} indicates the area used for analogue subsampling described in \ref{ch5:stat_methods}.}
         \label{fig5.2}
       \end{figure}
-      % \clearpage
+      \clearpage
 
   \subsection{Statistical methods}\label{ch5:stat_methods}
 
@@ -155,6 +156,7 @@ In this chapter, I explore the close links between attribution of extreme weathe
 
       For maximum DJF daily mean precipitation rate (PRx), we use a generalised logistic distribution \citep{hosking_l-moments_1990} fit to the sample population. A generalised logistic distribution is used since the tail of the UKCP18 PPE 2061--2080 deviations population is clearly heavier than estimated by best-fit generalised extreme or generalised Pareto distributions; we note that this approach to modelling block maxima of daily rainfall has some precedent in the literature \citep{kysely_probability_2007,wan_zin_best_2009}. This issue is not a feature of the L-Moments estimator used: a maximum likelihood estimator yields near-identical results. It is possible that the apparent discrepancy with the generalised extreme value distribution arises from the number of independent precipitation events per season not being near enough to the asymptotic limit (independent event count $\rightarrow \infty$) for classical extreme value theory to be appropriate, as noted previously for annual daily rainfall maxima \citep{marani_metastatistical_2015}, though further work is needed to determine this conclusively.
 
+    \cleardoublepage
     \subsubsection{Analogue construction}
 
       In order to assess the dynamical contributions to the extreme weather simulated during the study winters, we use an MSLP analogue approach \citep{cattiaux_winter_2010,vautard_attribution_2016,yiou_statistical_2017}. For each future ExSamples ensemble (and each corresponding baseline ensemble), we create a subsample of analogues composed of ensemble members that have a root-mean-square error (Euclidean Distance) of less than 3 hPa from the UKCP18 PPE study winter average MSLP over the domain enclosed by the dashed blue lines in Figure \ref{fig5.2}Aa (-30:20 E; 35:70 N). This domain was the best for explaining variance in UK temperatures and close to best for UK precipitation of those investigated by \citep{neal_flexible_2016}. We used a 3hPa threshold as this was the tightest constraint that resulted in analogue ensembles large enough to infer statistics from with any degree of certainty (> 20 members in each case). The MSLP distance based subsampling results in an ensemble of analogues in which the mean large scale flow during the winter very closely matches the study winter. We can then use these ensembles of analogues to estimate the dynamical contribution and associated uncertainty to the extreme weather. ExSamples future and baseline ensemble distributions of MSLP distance from their corresponding UKCP winter are shown in Figure \ref{fig5.S3}.
@@ -180,6 +182,7 @@ In this chapter, I explore the close links between attribution of extreme weathe
      
     Despite the differences in PRm, the two models show little difference in their simulated distributions of the DJF maximum of daily mean precipitation averaged over the UK (PRx). The difference in mean PRx between all the ExSamples baseline ensembles and the UKCP18 PPE is only 4\% (0.99 mm day$^{-1}$). None of the three (nor their aggregate) ExSamples baseline ensembles are statistically significantly different from the UKCP 2007--2016 distribution for PRx anomalies.
 
+    \clearpage
     \begin{figure}[h]
       \centering
       \includegraphics[]{{Fig5.S1_small}.pdf}
