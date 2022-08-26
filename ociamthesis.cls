@@ -457,15 +457,16 @@
 \renewcommand*\bibliography[1]{{%
 \renewcommand*\MakeUppercase[1]{##1}\@ldbib{#1}}}
 
+% NJL: set math font to Euler style
+\usepackage{eulervm}
+% \usepackage{newtxmath}
+
 % NJL: these bits set the font
 % \usepackage{helvet}
 \usepackage{fontspec}
 \setmainfont[Ligatures=TeX]{Merriweather}
 \setsansfont[Ligatures=TeX]{Helvetica}
 \setmonofont[Ligatures=TeX]{Hack}
-
-% NJL: set math font to Euler style
-\usepackage{eulervm}
 
 % JEM: for crazy multi character set quotes and Unicode and all
 \usepackage[LGR,TS1,T1,TU]{fontenc}
