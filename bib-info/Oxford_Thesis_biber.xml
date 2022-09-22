@@ -2710,15 +2710,8 @@
     <titleInfo>
         <title>Attribution of Extreme Weather Events in the Context of Climate Change</title>
     </titleInfo>
-    <name type="personal">
-        <namePart type="given">Engineering,</namePart>
-        <namePart type="family">National Academies of Sciences</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
     <name>
-        <namePart>Medicine</namePart>
+        <namePart>National Academies of Sciences, Engineering, and Medicine</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -7659,6 +7652,202 @@
         <detail type="page"><number>094077</number></detail>
     </part>
 </mods>
+<mods ID="kwasniok_enhanced_2014">
+    <titleInfo>
+        <title>Enhanced regime predictability in atmospheric low-order models due to stochastic forcing</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Frank</namePart>
+        <namePart type="family">Kwasniok</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre>journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre>academic journal</genre>
+    </relatedItem>
+    <abstract>Regime predictability in atmospheric low-order models augmented with stochastic forcing is studied. Atmospheric regimes are identified as persistent or metastable states using a hidden Markov model analysis. A somewhat counterintuitive, coherence resonance-like effect is observed: regime predictability increases with increasing noise level up to an intermediate optimal value, before decreasing when further increasing the noise level. The enhanced regime predictability is due to increased persistence of the regimes. The effect is found in the Lorenz ’63 model and a low-order model of barotropic flow over topography. The increased predictability is only present in the regime dynamics, that is, in a coarse-grained view of the system; predictability of individual trajectories decreases monotonically with increasing noise level. A possible explanation for the phenomenon is given and implications of the finding for weather and climate modelling and prediction are discussed.</abstract>
+    <note>Publisher: Royal Society</note>
+    <subject>
+        <topic>predictability,atmospheric regimes,stochastic modelling</topic>
+    </subject>
+    <identifier type="citekey">kwasniok_enhanced_2014</identifier>
+    <identifier type="doi">10.1098/rsta.2013.0286</identifier>
+    <location>
+        <url>https://royalsocietypublishing.org/doi/10.1098/rsta.2013.0286</url>
+        <url displayLabel="Electronic full text" access="raw object">/home/leachl/Zotero/storage/M94KH22Z/Kwasniok - 2014 - Enhanced regime predictability in atmospheric low-.pdf</url>
+    </location>
+    <part>
+        <detail type="volume"><number>372</number></detail>
+        <detail type="issue"><number>2018</number></detail>
+        <detail type="page"><number>20130286</number></detail>
+    </part>
+</mods>
+<mods ID="atencia_analogs_2017">
+    <titleInfo>
+        <title>Analogs on the Lorenz Attractor and Ensemble Spread</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Aitor</namePart>
+        <namePart type="family">Atencia</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Isztar</namePart>
+        <namePart type="family">Zawadzki</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre>journal article</genre>
+    <language>
+        <languageTerm type="text">EN</languageTerm>
+    </language>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre>academic journal</genre>
+        <identifier type="issn">1520-0493, 0027-0644</identifier>
+    </relatedItem>
+    <abstract>Abstract Intrinsic predictability is defined as the uncertainty in a forecast due to small errors in the initial conditions. In fact, not only the amplitude but also the structure of these initial errors plays a key role in the evolution of the forecast. Several methodologies have been developed to create an ensemble of forecasts from a feasible set of initial conditions, such as bred vectors or singular vectors. However, these methodologies consider only the fastest growth direction globally, which is represented by the Lyapunov vector. In this paper, the simple Lorenz 63 model is used to compare bred vectors, random perturbations, and normal modes against analogs. The concept of analogs is based on the ergodicity theory to select compatible states for a given initial condition. These analogs have a complex structure in the phase space of the Lorenz attractor that is compatible with the properties of the nonlinear chaotic system. It is shown that the initial averaged growth rate of errors of the analogs is similar to the one obtained with bred vectors or normal modes (fastest growth), but they do not share other properties or statistics, such as the spread of these growth rates. An in-depth study of different properties of the analogs and the previous existing perturbation methodologies is carried out to shed light on the consequences of forecasting the choice of the perturbations.</abstract>
+    <note>Publisher: American Meteorological Society Section: Monthly Weather Review</note>
+    <identifier type="citekey">atencia_analogs_2017</identifier>
+    <identifier type="doi">10.1175/MWR-D-16-0123.1</identifier>
+    <location>
+        <url>https://journals.ametsoc.org/view/journals/mwre/145/4/mwr-d-16-0123.1.xml</url>
+        <url displayLabel="Electronic full text" access="raw object">/home/leachl/Zotero/storage/WXTKHK7W/Atencia and Zawadzki - 2017 - Analogs on the Lorenz Attractor and Ensemble Sprea.pdf:application/pdf;Snapshot:/home/leachl/Zotero/storage/UZFNNIGD/mwr-d-16-0123.1.html</url>
+    </location>
+    <part>
+        <detail type="volume"><number>145</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <extent unit="page">
+            <start>1381</start>
+            <end>1400</end>
+        </extent>
+    </part>
+</mods>
+<mods ID="van_garderen_storyline_2022">
+    <titleInfo>
+        <title>A storyline attribution of the 2011/2012 drought in Southeastern South America</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Linda</namePart>
+        <namePart type="family">van Garderen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Julia</namePart>
+        <namePart type="family">Mindlin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre>journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre>academic journal</genre>
+        <identifier type="issn">1477-8696</identifier>
+    </relatedItem>
+    <abstract>The 2011/2012 summer drought in Southeastern South America (SESA) was a short but devastating event. What would this event have looked like under pre-industrial conditions, or in a +2 degC world? We find that climate change causes the region to be at a higher risk of drought. However, we found no large-scale changes in the half-month water budgets. We show that the climate change induced positive precipitation trend in the region outweighs the increased temperatures and potential evapotranspiration during the 2011/2012 drought.</abstract>
+    <note>_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/wea.4185</note>
+    <identifier type="citekey">van_garderen_storyline_2022</identifier>
+    <identifier type="doi">10.1002/wea.4185</identifier>
+    <location>
+        <url>https://onlinelibrary.wiley.com/doi/abs/10.1002/wea.4185</url>
+        <url displayLabel="Electronic full text" access="raw object">/home/leachl/Zotero/storage/DB25LGCI/van Garderen and Mindlin - 2022 - A storyline attribution of the 20112012 drought i.pdf:application/pdf;Snapshot:/home/leachl/Zotero/storage/VLV2GYMV/wea.html</url>
+    </location>
+    <part>
+        <detail type="volume"><number>77</number></detail>
+        <detail type="issue"><number>6</number></detail>
+        <extent unit="page">
+            <start>212</start>
+            <end>218</end>
+        </extent>
+    </part>
+</mods>
+<mods ID="hagedorn_predictability_2006">
+    <titleInfo>
+        <title>Predictability – a problem partly solved</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Edward</namePart>
+        <namePart type="given">N</namePart>
+        <namePart type="family">Lorenz</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Predictability of Weather and Climate</title>
+        </titleInfo>
+        <name type="personal">
+            <namePart type="given">Renate</namePart>
+            <namePart type="family">Hagedorn</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <name type="personal">
+            <namePart type="given">Tim</namePart>
+            <namePart type="family">Palmer</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <publisher>Cambridge University Press</publisher>
+        </originInfo>
+        <genre>collection</genre>
+        <identifier type="isbn">978-0-521-84882-4</identifier>
+        <location>
+            <physicalLocation>Cambridge</physicalLocation>
+        </location>
+    </relatedItem>
+    <abstract>Ed Lorenz, pioneer of chaos theory, presented this work at an earlier ECMWF workshop on predictability. The paper, which has never been published externally, presents what is widely known as the Lorenz 1996 model. Ed was unable to come to the 2002 meeting, but we decided it would be proper to acknowledge Ed’s unrivalled contribution to the field of weather and climate predictability by publishing his 1996 paper in this volume.The difference between the state that a system is assumed or predicted to possess, and the state that it actually possesses or will possess, constitutes the error in specifying or forecasting the state. We identify the rate at which an error will typically grow or decay, as the range of prediction increases, as the key factor in determining the extent to which a system is predictable. The long-term average factor by which an infinitesimal error will amplify or diminish, per unit time, is the leading Lyapunov number; its logarithm, denoted by λ1, is the leading Lyapunov exponent. Instantaneous growth rates can differ appreciably from the average.With the aid of some simple models, we describe situations where errors behave as would be expected from a knowledge of λ1, and other situations, particularly in the earliest and latest stages of growth, where their behaviour is systematically different. Slow growth in the latest stages may be especially relevant to the long-range predictability of the atmosphere.</abstract>
+    <identifier type="citekey">hagedorn_predictability_2006</identifier>
+    <identifier type="doi">10.1017/CBO9780511617652.004</identifier>
+    <location>
+        <url>https://www.cambridge.org/core/books/predictability-of-weather-and-climate/predictability-a-problem-partly-solved/3221BDE379DEB669BA52C66263AF3206</url>
+        <url displayLabel="Electronic full text" access="raw object">/home/leachl/Zotero/storage/NV3RLA5U/3221BDE379DEB669BA52C66263AF3206.html</url>
+    </location>
+    <part>
+        <extent unit="page">
+            <start>40</start>
+            <end>58</end>
+        </extent>
+    </part>
+</mods>
 <mods ID="mitchell_attributing_2016">
     <titleInfo>
         <title>Attributing human mortality during extreme heat waves to anthropogenic climate change</title>
@@ -9235,6 +9424,64 @@
         </extent>
     </part>
 </mods>
+<mods ID="dingley_forcing_2021">
+    <titleInfo>
+        <title>Forcing Convection to Aggregate Using Diabatic Heating Perturbations</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Beth</namePart>
+        <namePart type="family">Dingley</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Guy</namePart>
+        <namePart type="family">Dagan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Philip</namePart>
+        <namePart type="family">Stier</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre>journal article</genre>
+    <language>
+        <languageTerm type="text">en</languageTerm>
+    </language>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre>academic journal</genre>
+        <identifier type="issn">1942-2466</identifier>
+    </relatedItem>
+    <abstract>Tropical deep convection can aggregate into large clusters, which can have impacts on the local humidity and precipitation. Sea surface temperature (SST) gradients have been shown to organize convection, yet there has been little work done to investigate the impact of diabatic heating perturbations in the atmosphere on the aggregation of convection. Here we investigate how anomalous diabatic heating of the atmospheric column, through an idealized aerosol plume, affects the existence and mechanisms of convective aggregation in non-rotating, global radiative-convective equilibrium simulations. We show that the aerosol forcing has the ability to increase the degree of aggregation, especially at lower SSTs. Detailed investigation shows that the diabatic heating source incites a thermally driven circulation, forced by the shortwave perturbation. The increase in aggregation is caused in part by this circulation, and in part by the longwave heating anomalies occurring due to the surface convergence of moisture and convection. At higher SSTs, longwave feedbacks are crucial for the aggregation of convection, even with the shortwave heating perturbation. At lower SSTs, convection is able to aggregate with the shortwave perturbation in the absence of longwave feedbacks. These perturbations provide a link to studying the effects of absorbing aerosol plumes on convection, for example during the Indian monsoon season. We argue that, as there is aggregation for plumes with realistic aerosol absorption optical depths, this could be an analogue for real-world organization in regions with high pollution.</abstract>
+    <note>_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2021MS002579</note>
+    <subject>
+        <topic>aerosol-cloud interactions,Aerosol-cloud interactions,convective organization,Convective organization,self-aggregation,Self-aggregation,tropical convection,Tropical Convection</topic>
+    </subject>
+    <identifier type="citekey">dingley_forcing_2021</identifier>
+    <identifier type="doi">10.1029/2021MS002579</identifier>
+    <location>
+        <url>https://onlinelibrary.wiley.com/doi/abs/10.1029/2021MS002579</url>
+        <url displayLabel="Electronic full text" access="raw object">/home/leachl/Zotero/storage/5BAH8Q2W/Dingley et al. - Forcing convection to aggregate using diabatic hea.pdf:application/pdf;Full Text PDF:/home/leachl/Zotero/storage/8PMBHUEI/Dingley et al. - 2021 - Forcing Convection to Aggregate Using Diabatic Hea.pdf:application/pdf;Snapshot:/home/leachl/Zotero/storage/HW3HQQCH/2021MS002579.html</url>
+    </location>
+    <part>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>10</number></detail>
+        <detail type="page"><number>e2021MS002579</number></detail>
+    </part>
+</mods>
 <mods ID="marvel_twentieth-century_2019">
     <titleInfo>
         <title>Twentieth-century hydroclimate changes consistent with human influence</title>
@@ -9995,7 +10242,7 @@
     </relatedItem>
     <note>Publisher: John Wiley &amp; Sons, Ltd</note>
     <subject>
-        <topic>bias correction,climate change,climate data reconstruction,night marine air temperature,sea ice,sea surface temperature</topic>
+        <topic>climate change,bias correction,climate data reconstruction,night marine air temperature,sea ice,sea surface temperature</topic>
     </subject>
     <identifier type="citekey">rayner_global_2003</identifier>
     <identifier type="doi">10.1029/2002JD002670</identifier>
@@ -14758,7 +15005,7 @@
     <abstract>Mortality associated with rising temperatures is one of the clearest and impactful fingerprints of a changing climate. Research now shows an attributable increase in mortality due to climate change is already evident in cities on every continent.</abstract>
     <note>Number: 6 Publisher: Nature Publishing Group</note>
     <subject>
-        <topic>Developing world,Environmental health,Environmental social sciences</topic>
+        <topic>Developing world,Environmental social sciences,Environmental health</topic>
     </subject>
     <identifier type="citekey">mitchell_climate_2021</identifier>
     <identifier type="doi">10.1038/s41558-021-01049-y</identifier>
@@ -14880,7 +15127,7 @@
     <abstract>Landfalling atmospheric rivers over the North Pacific are evaluated in historical (1980–2005) simulations from 28 models participating in the fifth phase of the Coupled Model Intercomparison Project (CMIP5) and compared to the Modern-Era Retrospective Analysis for Research and Applications and ERA-Interim reanalyses. Landfalling dates are identified as having spatially elongated high wind and moisture features in physical proximity to the coastline. Model performance relative to reanalysis is found to be quite variable. The majority can resolve the spatial structure of landfalling events, but few correctly resolve the frequency distribution, interannual variability in number and amplitude of moisture flux, and median landfalling latitude. The response of a subset of high-performing models to projected warming at the end of the 21st century is investigated using Representative Concentration Pathway (RCP) 8.5 (2070–2100) projections. Selected models show a broadening of the frequency distribution, with the largest increase in frequency occurring equatorward of peak historical frequency. While there is a robust increase in AR-related moisture transport compared to the historical period, this increase is not linked to more extreme AR events within the context of the projected future climate. The occurrence of years with many AR dates is greater at the end of the 21st century than during the historical period. The equatorward increase in peak historical frequency is colocated with increases in the 850 and 250 hPa zonal winds. The response in moisture flux to warming is mostly thermodynamic, but equatorward of its peak distribution, it is dominated by a dynamic response.</abstract>
     <note>_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/2015JD023586</note>
     <subject>
-        <topic>atmospheric rivers,CMIP5 evaluation,moisture transport,North Pacific,RCP 8.5</topic>
+        <topic>moisture transport,atmospheric rivers,CMIP5 evaluation,North Pacific,RCP 8.5</topic>
     </subject>
     <identifier type="citekey">payne_evaluation_2015</identifier>
     <identifier type="doi">10.1002/2015JD023586</identifier>
@@ -15019,13 +15266,13 @@
     </relatedItem>
     <abstract>Recent extreme weather across the globe highlights the need to understand the potential for more extreme events in the present-day, and how such events may change with global warming. We present a methodology for more efficiently sampling extremes in future climate projections. As a proof-of-concept, we examine the UK‘s most recent set of national Climate Projections (UKCP18). UKCP18 includes a 15-member perturbed parameter ensemble (PPE) of coupled global simulations, providing a range of climate projections incorporating uncertainty in both internal variability and forced response. However, this ensemble is too small to adequately sample extremes with very high return periods, which are of interest to policy-makers and adaptation planners. To better understand the statistics of these events, we use distributed computing to run three  1000-member initial-condition ensembles with the atmosphere-only HadAM4 model at 60km resolution on volunteers‘ computers, taking boundary conditions from three distinct future extreme winters within the UKCP18 ensemble. We find that the magnitude of each winter extreme is captured within our ensembles, and that two of the three ensembles are conditioned towards producing extremes by the boundary conditions. Our ensembles contain several extremes that would only be expected to be sampled by a UKCP18 PPE of over 500 members, which would be prohibitively expensive with current supercomputing resource. The most extreme winters simulated exceed those for UKCP18 by 0.85 K and 37% of the present-day average for UK winter mean daily maximum temperature and precipitation respectively. As such, our ensembles contain a rich set of multivariate, spatio-temporally and physically coherent samples of extreme winters with wide-ranging potential applications.</abstract>
     <subject>
-        <topic>Climate change adaptation,Climate change projection,Climate modelling,Extreme weather,Large ensembles</topic>
+        <topic>Extreme weather,Large ensembles,Climate change adaptation,Climate change projection,Climate modelling</topic>
     </subject>
     <identifier type="citekey">leach_generating_2022</identifier>
     <identifier type="doi">10.1016/j.wace.2022.100419</identifier>
     <location>
         <url>https://www.sciencedirect.com/science/article/pii/S2212094722000111</url>
-        <url displayLabel="Electronic full text" access="raw object">/home/leachl/Zotero/storage/6IJVKSZ8/S2212094722000111.html:text/html;Submitted Version:/home/leachl/Zotero/storage/PEJ6ENJ2/Leach et al. - 2022 - Generating samples of extreme winters to support c.pdf</url>
+        <url displayLabel="Electronic full text" access="raw object">/home/leachl/Zotero/storage/9EWR92E9/Leach et al. - 2022 - Generating samples of extreme winters to support c.pdf:application/pdf;ScienceDirect Snapshot:/home/leachl/Zotero/storage/6IJVKSZ8/S2212094722000111.html:text/html;Supplementary material for Leach et al. - 2022 - Generating samples of extreme winters to support c.pdf:/home/leachl/Zotero/storage/45BHQPZ3/Supplementary material for Leach et al. - 2022 - Generating samples of extreme winters to support c.pdf</url>
     </location>
     <part>
         <detail type="volume"><number>36</number></detail>
@@ -15382,7 +15629,7 @@
     </relatedItem>
     <abstract>Quantifying the human influence on individual extreme weather events is a new and rapidly developing science. Understanding the influence of climate change on tropical cyclones poses special challenges due to their intensities and scales. We present a method designed to overcome these challenges using high-resolution hindcasts of individual tropical cyclones under their actual large-scale meteorological conditions, counterfactual conditions without human influences on the climate system, and scenarios of increased climate change. Two practical case studies are presented along with a discussion of the conditions and limitations of attribution statements that can be made with this hindcast attribution method.</abstract>
     <subject>
-        <topic>Attribution,Climate change,Modeling,Tropical cyclone</topic>
+        <topic>Climate change,Attribution,Modeling,Tropical cyclone</topic>
     </subject>
     <identifier type="citekey">wehner_estimating_2019</identifier>
     <identifier type="doi">10.1007/978-3-030-02402-4_12</identifier>
@@ -15701,7 +15948,7 @@
     </relatedItem>
     <abstract>&lt;p&gt;A database is described that has been designed to fulfill the need for daily climate data over global land areas. The dataset, known as Global Historical Climatology Network (GHCN)-Daily, was developed for a wide variety of potential applications, including climate analysis and monitoring studies that require data at a daily time resolution (e.g., assessments of the frequency of heavy rainfall, heat wave duration, etc.). The dataset contains records from over 80 000 stations in 180 countries and territories, and its processing system produces the official archive for U.S. daily data. Variables commonly include maximum and minimum temperature, total daily precipitation, snowfall, and snow depth; however, about two-thirds of the stations report precipitation only. Quality assurance checks are routinely applied to the full dataset, but the data are not homogenized to account for artifacts associated with the various eras in reporting practice at any particular station (i.e., for changes in systematic bias).&lt;/p&gt;</abstract>
     <subject>
-        <topic>Data processing,Databases</topic>
+        <topic>Databases,Data processing</topic>
     </subject>
     <identifier type="citekey">menne_overview_2012</identifier>
     <identifier type="doi">10.1175/JTECH-D-11-00103.1</identifier>
@@ -17042,6 +17289,91 @@
         <detail type="page"><number>50</number></detail>
     </part>
 </mods>
+<mods ID="argo_argo_2022">
+    <titleInfo>
+        <title>Argo float data and metadata from Global Data Assembly Centre (Argo GDAC)</title>
+    </titleInfo>
+    <name>
+        <namePart>Argo</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <publisher>SEANOE</publisher>
+    </originInfo>
+    <abstract>Argo is a global array of 3,000 free-drifting profiling floats that measures the temperature and salinity of the upper 2000 m of the ocean. This allows, for the first time, continuous monitoring of the temperature, salinity, and velocity of the upper ocean, with all data being relayed and made publicly available within hours after collection. The array provides 100,000 temperature/salinity profiles and velocity measurements per year distributed over the global oceans at an average of 3-degree spacing. Some floats provide additional bio-geo parameters such as oxygen or chlorophyll. All data collected by Argo floats are publically available in near real-time via the Global Data Assembly Centers (GDACs) in Brest (France) and Monterey (California) after an automated quality control (QC), and in scientifically quality controlled form, delayed mode data, via the GDACs within six months of collection. The BGC-Argo Sprof snapshot is a subset of the global Argo data snapshot. It is created to ease BGC-Argo data usage. The content is the same if you are to download the global Argo data snapshot, and then select all the BGC-Argo Sprof files. Please use the same DOI and citation as the global Argo data snapshot.</abstract>
+    <note>Type: dataset</note>
+    <subject>
+        <topic>Argo,float,global ocean observing system,global-ocean,in-situ,multi-year,ocean circulation,ocean pressure,sea water salinity,sea water temperature,weather climate and seasonal observation</topic>
+    </subject>
+    <identifier type="citekey">argo_argo_2022</identifier>
+    <identifier type="doi">10.17882/42182</identifier>
+    <location>
+        <url>https://www.seanoe.org/data/00311/42182/</url>
+    </location>
+</mods>
+<mods ID="goldsworth_symmetric_2021">
+    <titleInfo>
+        <title>Symmetric Instability in Cross-Equatorial Western Boundary Currents</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Fraser</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Goldsworth</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">David</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Marshall</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Helen</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Johnson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre>journal article</genre>
+    <language>
+        <languageTerm type="text">EN</languageTerm>
+    </language>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre>academic journal</genre>
+        <identifier type="issn">0022-3670, 1520-0485</identifier>
+    </relatedItem>
+    <abstract>Abstract The upper limb of the Atlantic meridional overturning circulation draws waters with negative potential vorticity from the Southern Hemisphere into the Northern Hemisphere. The North Brazil Current is one of the cross-equatorial pathways in which this occurs: upon crossing the equator, fluid parcels must modify their potential vorticity to render them stable to symmetric instability and to merge smoothly with the ocean interior. In this work a linear stability analysis is performed on an idealized western boundary current, dynamically similar to the North Brazil Current, to identify features that are indicative of symmetric instability. Simple two-dimensional numerical models are used to verify the results of the stability analysis. The two-dimensional models and linear stability theory show that symmetric instability in meridional flows does not change when the nontraditional component of the Coriolis force is included, unlike in zonal flows. Idealized three-dimensional numerical models show anticyclonic barotropic eddies being spun off as the western boundary current crosses the equator. These eddies become symmetrically unstable a few degrees north of the equator, and their PV is set to zero through the action of the instability. The instability is found to have a clear fingerprint in the spatial Fourier transform of the vertical kinetic energy. An analysis of the water mass formation rates suggest that symmetric instability has a minimal effect on water mass transformation in the model calculations; however, this may be the result of unresolved dynamics, such as secondary Kelvin–Helmholtz instabilities, which are important in diabatic transformation.</abstract>
+    <note>Publisher: American Meteorological Society Section: Journal of Physical Oceanography</note>
+    <identifier type="citekey">goldsworth_symmetric_2021</identifier>
+    <identifier type="doi">10.1175/JPO-D-20-0273.1</identifier>
+    <location>
+        <url>https://journals.ametsoc.org/view/journals/phoc/51/6/JPO-D-20-0273.1.xml</url>
+        <url displayLabel="Electronic full text" access="raw object">/home/leachl/Zotero/storage/X4RMU9JI/Goldsworth et al. - 2021 - Symmetric Instability in Cross-Equatorial Western .pdf:application/pdf;Snapshot:/home/leachl/Zotero/storage/TVR9LDHG/JPO-D-20-0273.1.html</url>
+    </location>
+    <part>
+        <detail type="volume"><number>51</number></detail>
+        <detail type="issue"><number>6</number></detail>
+        <extent unit="page">
+            <start>2049</start>
+            <end>2067</end>
+        </extent>
+    </part>
+</mods>
 <mods ID="stockdale_coupled_1997">
     <titleInfo>
         <title>Coupled Ocean–Atmosphere Forecasts in the Presence of Climate Drift</title>
@@ -17161,7 +17493,7 @@
     <abstract>In winter 2013/14 a succession of storms hit the UK leading to record rainfall and flooding in many regions including south east England. In the Thames river valley there was widespread flooding, with clean-up costs of over \textbackslashpounds1 billion. There was no observational precedent for this level of rainfall. Here we present analysis of a large ensemble of high-resolution initialised climate simulations to show that this event could have been anticipated, and that in the current climate there remains a high chance of exceeding the observed record monthly rainfall totals in many regions of the UK. In south east England there is a 7% chance of exceeding the current rainfall record in at least one month in any given winter. Expanding our analysis to some other regions of England and Wales the risk increases to a 34% chance of breaking a regional record somewhere each winter.</abstract>
     <note>Publisher: Nature Publishing Group</note>
     <subject>
-        <topic>Atmospheric science,Climate change</topic>
+        <topic>Climate change,Atmospheric science</topic>
     </subject>
     <identifier type="citekey">thompson_high_2017</identifier>
     <identifier type="doi">10.1038/s41467-017-00275-3</identifier>
@@ -18032,6 +18364,9 @@
     </relatedItem>
     <identifier type="citekey">masson-delmotte_atlas_2021</identifier>
     <identifier type="doi">10.1017/9781009157896.021</identifier>
+    <location>
+        <url>Available from http://interactive-atlas.ipcc.ch/</url>
+    </location>
     <part>
         <extent unit="page">
             <start>1927</start>
@@ -18077,7 +18412,7 @@
     <abstract>We analyze projected changes in climate extremes (extreme temperatures and heavy precipitation) in the multimodel ensembles of the fifth and sixth Coupled Model Intercomparison Projects (CMIP5 and CMIP6). The results reveal close similarity between both ensembles in the regional climate sensitivity of the projected multimodel mean changes in climate extremes, that is, their projected changes as a function of global warming. This stands in contrast to widely reported divergences in global (transient and equilibrium) climate sensitivity in the two multimodel ensembles. Some exceptions include higher warming in the South America monsoon region, lower warming in Southern Asia and Central Africa, and higher increases in heavy precipitation in Western Africa and the Sahel region in the CMIP6 ensemble. The multimodel spread in regional climate sensitivity is found to be large in both ensembles. In particular, it contributes more to intermodel spread in projected regional climate extremes compared with the intermodel spread in global climate sensitivity in CMIP6. Our results highlight the need to consider regional climate sensitivity as a distinct feature of Earth system models and a key determinant of projected regional impacts, which is largely independent of the models’ response in global climate sensitivity.</abstract>
     <note>_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2019EF001474</note>
     <subject>
-        <topic>climate extremes,climate models,climate projections,CMIP5,CMIP6,regional climate sensitivity</topic>
+        <topic>CMIP5,climate extremes,CMIP6,climate models,climate projections,regional climate sensitivity</topic>
     </subject>
     <identifier type="citekey">seneviratne_regional_2020</identifier>
     <identifier type="doi">10.1029/2019EF001474</identifier>
@@ -18178,7 +18513,7 @@
     <abstract>Climatic Research Unit temperature version 5 (CRUTEM5) is an extensive revision of our land surface air temperature data set. We have expanded the underlying compilation of monthly temperature records from 5,583 to 10,639 stations, of which those with sufficient data to be used in the gridded data set has grown from 4,842 to 7,983. Many station records have also been extended or replaced by series that have been homogenized by national meteorological and hydrological services. We have improved the identification of potential outliers in these data to better capture outliers during the reference period; to avoid classifying some real regional temperature extremes as outliers; and to reduce trends in outlier counts arising from climatic warming. Due to these updates, the gridded data set shows some regional increases in station density and regional changes in temperature anomalies. Nonetheless, the global-mean timeseries of land air temperature is only slightly modified compared with previous versions and previous conclusions are not altered. The standard gridding algorithm and comprehensive error model are the same as for the previous version, but we have explored an alternative gridding algorithm that removes the under-representation of high latitude stations. The alternative gridding increases estimated global-mean land warming by about 0.1°C over the course of the whole record. The warming from 1861–1900 to the mean of the last 5 years is 1.6°C using the standard gridding (with a 95% confidence interval for errors on individual annual means of −0.11 to +0.10°C in recent years), while the alternative gridding gives a change of 1.7°C.</abstract>
     <note>_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2019JD032352</note>
     <subject>
-        <topic>climate change,CRUTEM,global temperature,global warming,instrumental climate data,land air temperature</topic>
+        <topic>climate change,global warming,global temperature,CRUTEM,instrumental climate data,land air temperature</topic>
     </subject>
     <identifier type="citekey">osborn_land_2021</identifier>
     <identifier type="doi">10.1029/2019JD032352</identifier>
@@ -18392,7 +18727,7 @@
     <abstract>Southern Asia experiences some of the most damaging climate events in the world, with loss of life from some cyclones in the hundreds of thousands. Despite this, research on climate extremes in the region is substantially lacking compared to other parts of the world. To understand the narrative of how an extreme event in the region may change in the future, we consider Super Cyclone Amphan, which made landfall in May 2020, bringing storm surges of 2–4 m to coastlines of India and Bangladesh. Using the latest CMIP6 climate model projections, coupled with storm surge, hydrological, and socio-economic models, we consider how the population exposure to a storm surge of Amphan’s scale changes in the future. We vary future sea level rise and population changes consistent with projections out to 2100, but keep other factors constant. Both India and Bangladesh will be negatively impacted, with India showing &gt;200% increased exposure to extreme storm surge flooding (&gt;3 m) under a high emissions scenario and Bangladesh showing an increase in exposure of &gt;80% for low-level flooding (&gt;0.1 m). It is only when we follow a low-emission scenario, consistent with the 2°C Paris Agreement Goal, that we see no real change in Bangladesh’s storm surge exposure, mainly due to the population and climate signals cancelling each other out. For India, even with this low-emission scenario, increases in flood exposure are still substantial (&gt;50%). While here we attribute only the storm surge flooding component of the event to climate change, we highlight that tropical cyclones are multifaceted, and damages are often an integration of physical and social components. We recommend that future climate risk assessments explicitly account for potential compounding factors.</abstract>
     <note>_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/cli2.36</note>
     <subject>
-        <topic>attribution,climate change,extreme weather,projections,tropical cyclone,vulnerability</topic>
+        <topic>climate change,attribution,projections,extreme weather,tropical cyclone,vulnerability</topic>
     </subject>
     <identifier type="citekey">mitchell_increased_2022</identifier>
     <identifier type="doi">10.1002/cli2.36</identifier>
@@ -25244,6 +25579,89 @@
         <extent unit="page">
             <start>1072</start>
             <end>1084</end>
+        </extent>
+    </part>
+</mods>
+<mods ID="jenkins_quantifying_2021">
+    <titleInfo>
+        <title>Quantifying non-CO2 contributions to remaining carbon budgets</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Stuart</namePart>
+        <namePart type="family">Jenkins</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Michelle</namePart>
+        <namePart type="family">Cain</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Pierre</namePart>
+        <namePart type="family">Friedlingstein</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Nathan</namePart>
+        <namePart type="family">Gillett</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Tristram</namePart>
+        <namePart type="family">Walsh</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Myles</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Allen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre>journal article</genre>
+    <language>
+        <languageTerm type="text">en</languageTerm>
+    </language>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre>academic journal</genre>
+        <identifier type="issn">2397-3722</identifier>
+    </relatedItem>
+    <abstract>The IPCC Special Report on 1.5 °C concluded that anthropogenic global warming is determined by cumulative anthropogenic CO2 emissions and the non-CO2 radiative forcing level in the decades prior to peak warming. We quantify this using CO2-forcing-equivalent (CO2-fe) emissions. We produce an observationally constrained estimate of the Transient Climate Response to cumulative carbon Emissions (TCRE), giving a 90% confidence interval of 0.26–0.78 °C/TtCO2, implying a remaining total CO2-fe budget from 2020 to 1.5 °C of 350–1040 GtCO2-fe, where non-CO2 forcing changes take up 50 to 300 GtCO2-fe. Using a central non-CO2 forcing estimate, the remaining CO2 budgets are 640, 545, 455 GtCO2 for a 33, 50 or 66% chance of limiting warming to 1.5 °C. We discuss the impact of GMST revisions and the contribution of non-CO2 mitigation to remaining budgets, determining that reporting budgets in CO2-fe for alternative definitions of GMST, displaying CO2 and non-CO2 contributions using a two-dimensional presentation, offers the most transparent approach.</abstract>
+    <note>Bandiera_abtest: a Cc_license_type: cc_by Cg_type: Nature Research Journals Number: 1 Primary_atype: Research Publisher: Nature Publishing Group Subject_term: Climate and Earth system modelling;Climate change;Climate-change mitigation Subject_term_id: climate-and-earth-system-modelling;climate-change;climate-change-mitigation</note>
+    <subject>
+        <topic>Climate and Earth system modelling,Climate change,Climate-change mitigation</topic>
+    </subject>
+    <identifier type="citekey">jenkins_quantifying_2021</identifier>
+    <identifier type="doi">10.1038/s41612-021-00203-9</identifier>
+    <location>
+        <url>https://www.nature.com/articles/s41612-021-00203-9</url>
+        <url displayLabel="Electronic full text" access="raw object">/home/leachl/Zotero/storage/MDCWG8XA/Jenkins et al. - 2021 - Quantifying non-CO2 contributions to remaining car.pdf:application/pdf;Snapshot:/home/leachl/Zotero/storage/6C7JQGNU/s41612-021-00203-9.html</url>
+    </location>
+    <part>
+        <detail type="volume"><number>4</number></detail>
+        <detail type="issue"><number>1</number></detail>
+        <extent unit="page">
+            <start>1</start>
+            <end>10</end>
         </extent>
     </part>
 </mods>
