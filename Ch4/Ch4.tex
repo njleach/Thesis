@@ -1,10 +1,10 @@
 {\onehalfspacing%
 \begin{savequote}[8cm]
-    Quote
-      \qauthor{--- author}
+  Changes in many extreme weather and climate events have been observed since about 1950. Some of these changes have been linked to human influences ...
+      \qauthor{--- IPCC, AR5, 2014}
 \end{savequote}
     
-\chapter{\label{ch4}Forecast-based attribution: perturbing the initial and boundary conditions}
+\chapter{\label{ch4}Attribution with perturbed initial and boundary condition forecasts}
 
 This chapter represents the culmination of my work regarding forecast-based approaches to attribution. I produce perturbed initial and boundary condition forecasts of the 2021 Pacific Northwest Heatwave, an unprecedented event that posed significant challenges to traditional approaches to attribution. I use these counterfactual forecasts to provide a more complete estimate of the human contribution to the heatwave than was possible in the previous chapter. 
 {\small\paragraph{Author contributions:} This chapter is based on the following publication \footnote{with the author contributing as follows. Conceptualisation, Data curation, Formal analysis, Investigation, Methodology, Resources, Visualisation, Writing -- original draft and Writing --- Review \& Editing.} \par\vspace{1em}
@@ -105,7 +105,7 @@ This chapter represents the culmination of my work regarding forecast-based appr
     \begin{figure}[h]
       \centering
       \includegraphics[width=\textwidth]{{Fig4.S1}.png}
-      \caption[The initial ocean state perturbation applied.]{\textbf{The initial ocean state perturbation applied. Left panel:} map of the surface temperature perturbation. \textbf{Inset:} timeseries of annual maximum temperatures for the same dotted region. \textbf{Top right panel:} map of zonally averaged temperature perturbations as a function of depth. \textbf{Bottom right panel:} globally averaged temperature perturbation as a function of depth. Note that the x-axis switches from a linear to logarithmic scale at a depth of 500 m.}
+      \caption[The initial ocean state perturbation applied.]{\textbf{The initial ocean state perturbation applied. Left panel:} map of the surface temperature perturbation. \textbf{Top right panel:} map of zonally averaged temperature perturbations as a function of depth. \textbf{Bottom right panel:} globally averaged temperature perturbation as a function of depth. Note that the x-axis switches from a linear to logarithmic scale at a depth of 500 m.}
       \label{fig4.4}
     \end{figure}
     \clearpage
@@ -129,7 +129,7 @@ This chapter represents the culmination of my work regarding forecast-based appr
     % \clearpage
     \begin{figure}[h]
       \centering
-      \includegraphics[width=\textwidth]{{Fig4.S2}.png}
+      \includegraphics[width=\textwidth]{{Fig4.S2}.pdf}
       \caption[Validation of the bias correction applied to the SEAS5 seasonal forecast simulations.]{\textbf{Validation of the bias correction applied to the SEAS5 seasonal forecast simulations}, following \citet{thompson_high_2017} Figure 2. \textbf{Left panel:} PDFs of summer maximum temperatures in detrended reanalysis, and raw and bias-corrected seasonal hindcasts. \textbf{Right panels:} CDFs of detrended proxy raw and bias-corrected seasonal hindcast timeseries mean, variance, skewness and kurtosis compared to reanalysis values. In all panels, we show reanalysis both including and excluding the 2021 PNW heatwave.}
       \label{fig4.5}
     \end{figure}
@@ -164,7 +164,7 @@ This chapter represents the culmination of my work regarding forecast-based appr
 
   We find that despite the large impulse applied by the perturbed initial state upon forecast initialisation, the predictability of the heatwave is remarkably stable. The key synoptic drivers of the heatwave present in the original operational forecast remain intact. There are some changes consistent with the canonical response to global warming, including a thickening of the lower troposphere \cite{christidis_changes_2015} and increased tropospheric water vapour \cite{allen_constraints_2002} in the future forecast; and vice-versa in the pre-industrial forecast. As such, the perturbations have not altered the forecasts in such a way that they produce `different' weather, and we can compare our forecasts to estimate the influence of anthropogenic global warming on the Pacific Northwest heatwave. This is consistent with \citet{leach_forecast-based_2021}, but is not guaranteed to be the case for every weather event.
 
-  This experiment design is consistent with the perturbed CO$_2$ experiments of \citeauthor{leach_forecast-based_2021} in another important respect: the adjustment to the new `pre-industrial' or `future' climate state occurs continually throughout the forecast. This adjustment typically means that as the lead time increases, the estimated attributable influence on the heatwave also increases. Interplay between dynamical noise and attributable signal in the forecasts, both of which increase with the lead time (short leads correspond to more confident but smaller attributable impacts and vice-versa) is discussed further in \citeauthor{leach_forecast-based_2021}. The adjustment means that any attributable impacts estimated directly from the forecasts are lower-bounds on the true anthropogenic impact. However, we find that attributable impacts on the heatwave are approximately linear with the coincidental global warming level within the perturbed forecasts across the range of leads explored (Supplementary Figure S7), consistent with \citet{seneviratne_regional_2020}. Hence, in addition to the impacts estimated directly from the perturbed forecasts, we also present impacts scaled to the global warming level within the forecast at the time of the heatwave.
+  This experiment design is consistent with the perturbed CO$_2$ experiments of \citeauthor{leach_forecast-based_2021} in another important respect: the adjustment to the new `pre-industrial' or `future' climate state occurs continually throughout the forecast. This adjustment typically means that as the lead time increases, the estimated attributable influence on the heatwave also increases. Interplay between dynamical noise and attributable signal in the forecasts, both of which increase with the lead time (short leads correspond to more confident but smaller attributable impacts and vice-versa) is discussed further in \citeauthor{leach_forecast-based_2021}. The adjustment means that any attributable impacts estimated directly from the forecasts are lower-bounds on the true anthropogenic impact. However, we find that attributable impacts on the heatwave are approximately linear with the coincidental global land warming level within the perturbed forecasts across the range of leads explored, shown in Figure \ref{fig4.S7} and consistent with \citet{seneviratne_regional_2020}. Hence, in addition to the impacts estimated directly from the perturbed forecasts, we also present impacts scaled to the global warming level within the forecast at the time of the heatwave.
 
   \clearpage
   \begin{figure}[h]
@@ -172,6 +172,15 @@ This chapter represents the culmination of my work regarding forecast-based appr
     \includegraphics[width=0.8\textwidth]{{Fig4.2}.png}
     \caption[Drivers of the PNW heatwave and their predictability in the 11-day lead forecast.]{\textbf{Drivers of the PNW heatwave and their predictability in the forecast initialised 2021-06-18 (11 days). Top row:} temperature anomaly fields for the PNW heatwave in the ensemble mean, nearest member and reanalysis. Solid black contours indicate 500 hPa geopotential height anomalies and stippling indicates regions with total cloud cover greater than 25\%. \textbf{Second row:} mean total column water vapour anomalies on the 25th June. The study region of 45--52 N, 119--123 W, over which fields are aggregated into timeseries, is indicated by the dotted rectangle. Anomalies shown are calculated relative to the 2001--2020 period. \textbf{Bottom three rows:} timeseries of daily maximum temperatures, total column water vapour and total cloud cover in each forecast ensemble member. The solid black line shows the reanalysis timeseries and the thick solid line shows the nearest member. The colour of each line indicates the rank of that ensemble member in terms of the peak temperature simulated during the heatwave period (dark grey = coolest, dark red = warmest). The solid black bar on the time axis of each panel indicates the averaging period used for the total column water vapour maps.}
     \label{fig4.2}
+  \end{figure}
+  \clearpage
+
+  \clearpage
+  \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{{Fig4.S7}.pdf}
+    \caption[Linearity of local and global responses to imposed perturbations.]{\textbf{Linearity of local and global responses to imposed perturbations.} Each dot shows the ensemble mean difference between the pre-industrial and future forecasts. The y-axis represents the difference in heatwave intensity, and the x-axis represents the difference in global land warming level at the time of the heatwave. Colours indicate forecast initialisation date and marker styles indicate perturbation applied. `IC-observational' use the observation-based perturbations used in the results presented; `IC-CMIP6' use initial condition perturbations derived from the CMCC-CM2-HR4 coupled climate model historical simulation; and `CO$_2$-only' use CO$_2$ boundary condition perturbations only as in \citet{leach_forecast-based_2021}.}
+    \label{fig4.S7}
   \end{figure}
   \clearpage
 
@@ -186,7 +195,7 @@ This chapter represents the culmination of my work regarding forecast-based appr
   % \clearpage
     \begin{figure}[h]
       \centering
-      \includegraphics[width=\textwidth]{{Fig4.3}.png}
+      \includegraphics[width=\textwidth]{{Fig4.3}.pdf}
       \caption[Return-time diagram of the PNW heatwave in the operational and counterfactual forecast ensembles.]{\textbf{Return-time diagram of the PNW heatwave in the operational and counterfactual forecast ensembles.} Each panel shows ensembles initialised at the lead given above the panel. Red, grey and blue dots indicate empirical return-time plots based on the ensemble members of the future, current and pre-industrial forecasts. The dashed grey line shows the temperature threshold observed during the PNW heatwave. The black dots indicate the recent climatology, based on detrended ERA5 reanalysis over 1950--2020. The solid grey line indicates the model climatology estimated using detrended hindcasts over 2001--2020 for the medium-range forecast, and using detrended and bias-corrected hindcasts over 1981--2020 for the seasonal forecast. The arrow in the left panel indicates, for illustration, the displacement along the log-scaled x-axis equivalent to a 5-fold increase in occurrence probability.}
       \label{fig4.3}
     \end{figure}
